@@ -1,0 +1,1083 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="multidirectional-talk.css"/>
+
+</head>
+
+<body>
+<h2>generate image in css</h2><br><br>
+width:<input type="number" min="1" max="500" name="nb1" id="Nb1">
+height:<input type="number" min="1" max="500" name="nb2" id="Nb2">
+color:<input type="color" name="nb3" id="Nb3"><br>
+adjustment radian<br>
+<input type="number" min="1" max="500" name="nb4" id="Nb4">
+<input type="number" min="1" max="500" name="nb5" id="Nb5">
+<input type="number" min="1" max="500" name="nb6" id="Nb6">
+<input type="number" min="1" max="500" name="nb7" id="Nb7"><br>
+<input type="number" min="1" max="500" name="nb8" id="Nb8">
+<input type="number" min="1" max="500" name="nb9" id="Nb9">
+<input type="number" min="1" max="500" name="nb10" id="Nb10">
+<input type="number" min="1" max="500" name="nb11" id="Nb11"><br>
+rotate,  opacity,  and select position (1 : static, 2 : relative , 3 : fixed, 4 : absolute)<br>
+<input type="number" min="1" max="380" name="nb12" id="Nb12">
+<input type="number" min="1" max="99" name="nb13" id="Nb13">
+<input type="number" min="1" max="5" name="nb14" id="Nb14"><br>
+
+speed , margin-left, and margin-top<br>
+<input type="number" min="200" max="1000" name="nb15" id="Nb15">
+<button id="v1" >speed</button>
+<input type="number" min="-500" max="1000" name="nb16" id="Nb16">
+<input type="number" min="-500" max="1000" name="nb17" id="Nb17">
+
+
+<p>Generates image content :</p>
+<button id="tet1" >1</button>
+<button id="tet2"  >2</button>
+<button id="tet3" >3</button>
+<button id="tet4" >4</button>
+<button id="tet5" >5</button>
+<button id="tet6" >6</button>
+<button id="tet7" >7</button>
+<button id="tet8" >8</button>
+<button id="tet9" >9</button>
+<button id="tet10" >10</button>
+<button id="tet11" >11</button>
+<button id="tet12" >12</button>
+<button id="tet13" >13</button>
+<button id="tet14" >14</button>
+<button id="tet15" >15</button>
+<button id="tet16" >16</button>
+<button id="tetb1" >1b</button>
+<button id="tetb2" >2b</button>
+<button id="tetb3" >3b</button>
+<button id="tetb4" >4b</button>
+<button id="tetb5" >5b</button>
+<button id="tetb6" >6b</button>
+<button id="tetb7" >7b</button>
+<button id="tetb8" >8b</button>
+<button id="tetb9" >9b</button>
+<button id="tetb10" >10b</button>
+<button id="tetb11" >11b</button>
+<button id="tetb12" >12b</button>
+<button id="tetb13" >13b</button>
+<button id="tetb14" >14b</button>
+<button id="tetb15" >15b</button>
+<button id="tetb16" >16b</button>
+
+
+<br><br>
+<h2>generate sound in js</h2><br><br>
+<p>Select sound : jo audio format, for mix in the video :</p>
+<input type="number" min="1" max="16" name="nbson" id="Nbson"><br>
+
+<p>Placement of audio files in the video:</p>
+<button  Id="snd1">1</button>
+<button  Id="snd2">2</button>
+<button  Id="snd3">3</button>
+<button  Id="snd4">4</button>
+<button  Id="snd5">5</button>
+<button  Id="snd6">6</button>
+<button  Id="snd7">7</button>
+<button  Id="snd8">8</button>
+<button  Id="snd9">9</button>
+<button  Id="snd10">10</button>
+<button  Id="snd11">11</button>
+<button  Id="snd12">12</button>
+<button  Id="snd13">13</button>
+<button  Id="snd14">14</button>
+<button  Id="snd15">15</button>
+<button  Id="snd16">16</button>
+
+
+<br><br>
+
+<br><br><br>
+<p>get sound : abadie jo audio format, for header javascript :</p>
+<p>
+1:<input type="file" name="Gsnd1" id="gsnd1" onchange="gens1(this.files)"/>
+2:<input type="file" name="Gsnd2" id="gsnd2" onchange="gens2(this.files)"/>
+3:<input type="file" name="Gsnd3" id="gsnd3" onchange="gens3(this.files)"/>
+4:<input type="file" name="Gsnd4" id="gsnd4" onchange="gens4(this.files)"/>
+5:<input type="file" name="Gsnd5" id="gsnd5" onchange="gens5(this.files)"/>
+6:<input type="file" name="Gsnd6" id="gsnd6" onchange="gens6(this.files)"/>
+7:<input type="file" name="Gsnd7" id="gsnd7" onchange="gens7(this.files)"/>
+8:<input type="file" name="Gsnd8" id="gsnd8" onchange="gens8(this.files)"/>
+9:<input type="file" name="Gsnd9" id="gsnd9" onchange="gens9(this.files)"/>
+10:<input type="file" name="Gsnd10" id="gsnd10" onchange="gens10(this.files)"/>
+11:<input type="file" name="Gsnd11" id="gsnd11" onchange="gens11(this.files)"/>
+12:<input type="file" name="Gsnd12" id="gsnd12" onchange="gens12(this.files)"/>
+13:<input type="file" name="Gsnd13" id="gsnd13" onchange="gens13(this.files)"/>
+14:<input type="file" name="Gsnd14" id="gsnd14" onchange="gens14(this.files)"/>
+15:<input type="file" name="Gsnd15" id="gsnd15" onchange="gens15(this.files)"/>
+16:<input type="file" name="Gsnd16" id="gsnd16" onchange="gens16(this.files)"/>
+</p>
+
+
+
+<br><br>
+
+
+
+<h1>Start of the area <br>to copy / paste the generated video multidirectional</h1>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;multidirectional-talk&lt;/title&gt;
+
+
+
+
+&lt;style&gt;
+
+.indique{
+  cursor:pointer;
+}
+.cachemoi {
+    display: none;
+}
+
+.sortdutrou {
+    display: inline;
+}
+
+.action{
+  position:fixed;
+  height:4%;
+  width:1.4%;
+  margin-top:1%;
+  background:blue;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.action5mn{
+  position:fixed;
+  height:4%;
+  width:1.4%;
+  margin-top:1%;
+  background:red;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.actionvitesse{
+  position:fixed;
+  height:4%;
+  width:1.4%;
+  margin-top:1%;
+  background:green;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.actionunivers{
+  position:fixed;
+  height:4%;
+  width:1.4%;
+  margin-top:1%;
+  background:black;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.actionunivers{
+  position:fixed;
+  height:4%;
+  width:1.4%;
+  margin-top:2%;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+</pre>
+<div id='repere_tourne'> </div>
+<pre>
+
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body"&gt;
+
+
+  &lt;div id='basewave1'&gt; &lt;/div&gt;
+  &lt;div id='basewave2'&gt; &lt;/div&gt;
+  &lt;div id='basewave3'&gt; &lt;/div&gt;
+  &lt;div id='basewave4'&gt; &lt;/div&gt;
+  &lt;div id='basewave5'&gt; &lt;/div&gt;
+  &lt;div id='basewave6'&gt; &lt;/div&gt;
+  &lt;div id='basewave7'&gt; &lt;/div&gt;
+  &lt;div id='basewave8'&gt; &lt;/div&gt;
+  &lt;div id='basewave9'&gt; &lt;/div&gt;
+  &lt;div id='basewave10'&gt; &lt;/div&gt;
+  &lt;div id='basewave11'&gt; &lt;/div&gt;
+  &lt;div id='basewave12'&gt; &lt;/div&gt;
+  &lt;div id='basewave13'&gt; &lt;/div&gt;
+  &lt;div id='basewave14'&gt; &lt;/div&gt;
+  &lt;div id='basewave15'&gt; &lt;/div&gt;
+  &lt;div id='basewave16'&gt; &lt;/div&gt;
+
+
+
+
+
+
+ &lt;div id="fleur1" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde1_img16'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur1" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img16'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+
+ &lt;div id="fleur2" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde1_img15'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur2" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img15'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur3" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img14'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur3" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img14'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur4" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img13'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur4" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img13'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+
+ &lt;div id="fleur5" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img12'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur5" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img12'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+
+ &lt;div id="fleur6" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde1_img11'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur6" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img11'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur7" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img10'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur7" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img10'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur8" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img9'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur8" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img9'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur9" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde1_img8'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur9" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img8'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+
+ &lt;div id="fleur10" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde1_img7'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur10" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img7'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur11" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img6'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur11" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img6'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur12" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img5'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur12" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img5'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur13" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img4'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur13" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img4'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur14" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde1_img3'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur14" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img3'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur15" class="cachemoi"&gt;
+</pre>
+<div id='repere_injection_monde1_img2'> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur15" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img2'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+ &lt;div id="fleur16" class="cachemoi"&gt;
+</pre>
+<div id="repere_injection_monde1_img1"> </div>
+<pre>
+ &lt;/div&gt;
+
+&lt;!--bis--&gt;
+ &lt;div id="bisfleur16" class="cachemoi" &gt;
+</pre>
+<div id='repere_injection_monde2_img1'> </div>
+<pre>
+ &lt;/div&gt;
+&lt;!--fin bis--&gt;
+
+      &lt;!-- bare de temps --&gt;
+      &lt;div class="action" id="actionx1aPress" style="margin-left:1%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx2aPress" style="margin-left:3%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx3aPress" style="margin-left:5%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx4aPress" style="margin-left:7%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx5aPress" style="margin-left:9%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx6aPress" style="margin-left:11%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx7aPress" style="margin-left:13%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx8aPress" style="margin-left:15%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx9aPress" style="margin-left:17%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx10aPress" style="margin-left:19%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx11aPress" style="margin-left:21%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx12aPress" style="margin-left:23%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx13aPress" style="margin-left:25%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx14aPress" style="margin-left:27%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx15aPress" style="margin-left:29%;"&gt;&lt;/div&gt;
+      &lt;div class="action" id="actionx16aPress" style="margin-left:31%;"&gt;&lt;/div&gt; 
+
+       &lt;div class="action5mn" id="actionstopa" style="margin-left:61%;"&gt;&lt;/div&gt;
+       &lt;div class="action5mn" id="actionrestarta" style="margin-left:63%;"&gt;&lt;/div&gt;
+
+      &lt;div class="actionvitesse" id="diminuLeVenta" style="margin-left:67%;"&gt;-&lt;/div&gt;
+      &lt;div class="actionvitesse" id="acelereLeVenta" style="margin-left:69%;"&gt;+&lt;/div&gt;
+      &lt;div class="actionunivers" id="action1Pressa" style="margin-left:75%;"&gt;&lt;/div&gt;
+
+
+       &lt;div class="actiontexte" style="margin-left:15%;"&gt;&lt;p&gt;time line&lt;/p&gt;&lt;/div&gt;
+       &lt;div class="actiontexte" style="margin-left:61%;"&gt;&lt;p&gt;pause&lt;/p&gt;&lt;/div&gt;
+      &lt;div class="actiontexte" style="margin-left:67%;"&gt;&lt;p&gt;speed&lt;/p&gt;&lt;/div&gt;
+      &lt;div class="actiontexte" style="margin-left:75%;"&gt;&lt;p&gt;multidirectional talk&lt;/p&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript" src="example.js"&gt; &lt;/script&gt;
+
+&lt;script type="text/javascript" src="jom.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt; 
+</pre>
+
+<h2>Part javascript to copy / paste the file example.js</h2>
+
+ <pre>
+
+	var persistanceretinienne = 15;
+	var nbimg = null;
+	var nbboucle = 70;
+    	var mua1 = 0;
+	</pre><div id="vitesse"> </div><pre>
+	var ouioui;
+	var joueur = 'fleur';
+	var joueur1;
+	var joueur2;
+	var version = 1;
+	var joueur3 = 'bisfleur';
+	var joueur4;
+	var joueur5 = 'bis';
+	var joueur7;
+	var joueur8;
+	var arretimage5mn = 300000;
+	var souvenirvitesse = 1000;
+	var soud1 = [</pre><div id="donner_son1"> </div><pre>];
+	var soud2 = [</pre><div id="donner_son2"> </div><pre>];
+	var soud3 = [</pre><div id="donner_son3"> </div><pre>];
+	var soud4 = [</pre><div id="donner_son4"> </div><pre>];
+	var soud5 = [</pre><div id="donner_son5"> </div><pre>];
+	var soud6 = [</pre><div id="donner_son6"> </div><pre>];
+	var soud7 = [</pre><div id="donner_son7"> </div><pre>];
+	var soud8 = [</pre><div id="donner_son8"> </div><pre>];
+	var soud9 = [</pre><div id="donner_son9"> </div><pre>];
+	var soud10 = [</pre><div id="donner_son10"> </div><pre>];
+	var soud11 = [</pre><div id="donner_son11"> </div><pre>];
+	var soud12 = [</pre><div id="donner_son12"> </div><pre>];
+	var soud13 = [</pre><div id="donner_son13"> </div><pre>];
+	var soud14 = [</pre><div id="donner_son14"> </div><pre>];
+	var soud15 = [</pre><div id="donner_son15"> </div><pre>];
+	var soud16 = [</pre><div id="donner_son16"> </div><pre>];
+
+
+function acelereLeVent(){
+
+  if(vitesseDuVent&gt;123){
+  clearInterval(nbimg);
+vitesseDuVent = vitesseDuVent -40;
+nbboucle = 70;
+lancertout();
+  }
+
+}
+document.getElementById("acelereLeVenta").addEventListener("click", acelereLeVent);
+
+function diminuLeVent(){
+  clearInterval(nbimg);
+vitesseDuVent = vitesseDuVent + 300;
+nbboucle = 70;
+lancertout();
+}
+document.getElementById("diminuLeVenta").addEventListener("click", diminuLeVent);
+
+function actionstop(){
+  clearInterval(nbimg);
+vitesseDuVent = arretimage5mn;
+nbboucle = 7;
+vitesseDuVent = vitesseDuVent +1;
+lancertout();
+}
+document.getElementById("actionstopa").addEventListener("click", actionstop);
+
+function actionrestart(){
+  clearInterval(nbimg);
+vitesseDuVent = souvenirvitesse;
+nbboucle = 7;
+vitesseDuVent = vitesseDuVent +1;
+lancertout();
+}
+document.getElementById("actionrestarta").addEventListener("click", actionrestart);
+
+function decoupe2(joueur4){//1
+  document.getElementById(joueur4).className = 'cachemoi';
+}//3
+
+function decoupe1(joueur2){//1
+  document.getElementById(joueur2).className = 'cachemoi';
+}//3
+
+function decoupe3(joueur1){//1
+  document.getElementById(joueur1).className = 'sortdutrou';
+}//3
+
+function restecalme(joueur1,joueur8,ouioui){//1
+
+
+
+  if(version == 1){//2
+
+for (var placier = 1; placier &lt; ouioui; placier++) {//3
+
+
+	joueur2 = joueur + placier;
+  document.getElementById(joueur2).className = 'cachemoi';
+
+}//3
+
+for (var placier = ouioui+1; placier &lt; 17; placier++) {//3
+
+
+	joueur2 = joueur + placier;
+  document.getElementById(joueur2).className = 'cachemoi';
+
+}//3
+
+for (var placier = 1; placier &lt; ouioui; placier++) {//3
+
+
+	joueur4 = joueur3 + placier;
+  document.getElementById(joueur4).className = 'cachemoi';
+
+}//3
+
+for (var placier = ouioui+1; placier &lt; 17; placier++) {//3
+
+	joueur4 = joueur3 + placier;
+  document.getElementById(joueur4).className = 'cachemoi';
+
+
+}//3
+
+
+  document.getElementById(joueur1).className = 'sortdutrou';
+  document.getElementById(joueur8).className = 'cachemoi';
+
+}//2
+
+
+
+  if(version == 2){//2
+
+
+
+for (var placier = 1; placier &lt; ouioui; placier++) {//3
+
+
+	joueur4 = joueur3 + placier;
+  document.getElementById(joueur4).className = 'cachemoi';
+
+}//3
+
+for (var placier = ouioui+1; placier &lt; 17; placier++) {//3
+
+	joueur4 = joueur3 + placier;
+  document.getElementById(joueur4).className = 'cachemoi';
+
+
+}//3
+
+for (var placier = 1; placier &lt; ouioui; placier++) {//3
+
+
+	joueur2 = joueur + placier;
+  document.getElementById(joueur2).className = 'cachemoi';
+
+}//3
+
+for (var placier = ouioui+1; placier &lt; 17; placier++) {//3
+
+
+	joueur2 = joueur + placier;
+  document.getElementById(joueur2).className = 'cachemoi';
+
+}//3
+
+
+  document.getElementById(joueur8).className = 'sortdutrou';
+
+  document.getElementById(joueur1).className = 'cachemoi';
+
+
+}
+
+}
+
+
+
+function change(persistanceretinienne)
+{
+
+  switch (persistanceretinienne) {
+
+    	case 0:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son16"> </div><!--JoueLeSon16(); ou le son de la selection-->  
+<pre>
+   	break;
+    	case 1:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son15"> </div>
+<pre>
+   	break;
+    	case 2:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son14"> </div>
+<pre>
+   	break;
+    	case 3:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son13"> </div>
+<pre>
+   	break;
+    	case 4:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son12"> </div>
+<pre>
+   	break;
+    	case 5:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son11"> </div>
+<pre>
+   	break;
+    	case 6:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son10"> </div>
+<pre>
+   	break;
+    	case 7:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son9"> </div>
+<pre>
+   	break;
+    	case 8:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son8"> </div>
+<pre>
+   	break;
+    	case 9:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son7"> </div>
+<pre>
+   	break;
+    	case 10:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son6"> </div>
+<pre>
+   	break;
+    	case 11:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son5"> </div>
+<pre>
+   	break;
+    	case 12:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son4"> </div>
+<pre>
+   	break;
+    	case 13:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son3"> </div>
+<pre>
+   	break;
+    	case 14:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son2"> </div>
+<pre>
+   	break;
+    	case 15:
+	ouioui = persistanceretinienne + 1;
+	joueur1 = joueur + ouioui;
+	joueur8 = joueur3 + ouioui;
+	restecalme(joueur1,joueur8,ouioui);
+</pre>
+<div id="repere_son1"> </div>
+<pre>
+   	break;
+ 
+  }
+
+}
+
+
+
+function durermax()
+{
+  clearInterval(nbimg);
+/*   lancerChange4();	*/
+}
+function seance()
+{
+
+
+
+change(persistanceretinienne);
+  persistanceretinienne--;
+if ((nbboucle&gt;1)&&(persistanceretinienne&lt;0))
+{ 
+/* selection du nombre d'image*/
+/* persistanceretinienne = 3;*/
+persistanceretinienne = 15;
+nbboucle = nbboucle-1;
+}
+
+
+}
+
+function lancertout()
+{
+  nbimg = setInterval(seance, vitesseDuVent);
+  setTimeout(durermax, persistanceretinienne * 81000);
+change(persistanceretinienne);
+}
+
+function lancertout1()
+{
+lecjo(soud1);
+lecjo(soud2);
+lecjo(soud3);
+lecjo(soud4);
+lecjo(soud5);
+lecjo(soud6);
+lecjo(soud7);
+lecjo(soud8);
+lecjo(soud9);
+lecjo(soud10);
+lecjo(soud11);
+lecjo(soud12);
+lecjo(soud13);
+lecjo(soud14);
+lecjo(soud15);
+lecjo(soud16);
+
+lancertout();
+}	
+
+  function JoueLeSon(mua1){
+
+  if(mua1==0){
+
+  var multia1 = document.getElementById("1awav");
+  multia1.play();
+  }
+  else if(mua1==1){
+
+  var multia2 = document.getElementById("2awav");
+  multia2.play();
+  }
+  else if(mua1==2){
+
+  var multia3 = document.getElementById("3awav");
+  multia3.play();
+  }
+  else if(mua1==3){
+
+  var multia4 = document.getElementById("4awav");
+  multia4.play();
+  }
+  }
+
+  function JoueLeSon1(){
+  var multib1 = document.getElementById("1awav");
+  multib1.play();
+  }
+  function JoueLeSon2(){
+  var multic1 = document.getElementById("2awav");
+  multic1.play();
+  }
+  function JoueLeSon3(){
+  var multid1 = document.getElementById("3awav");
+  multid1.play();
+  }
+  function JoueLeSon4(){
+  var multie1 = document.getElementById("4awav");
+  multie1.play();
+  }
+  function JoueLeSon5(){
+  var multif1 = document.getElementById("5awav");
+  multif1.play();
+  }
+  function JoueLeSon6(){
+  var multig1 = document.getElementById("6awav");
+  multig1.play();
+  }
+  function JoueLeSon7(){
+  var multih1 = document.getElementById("7awav");
+  multih1.play();
+  }
+  function JoueLeSon8(){
+  var multii1 = document.getElementById("8awav");
+  multii1.play();
+  }
+  function JoueLeSon9(){
+  var multij1 = document.getElementById("9awav");
+  multij1.play();
+  }
+  function JoueLeSon10(){
+  var multik1 = document.getElementById("10awav");
+  multik1.play();
+  }
+  function JoueLeSon11(){
+  var multil1 = document.getElementById("11awav");
+  multil1.play();
+  }
+  function JoueLeSon12(){
+  var multic1 = document.getElementById("12awav");
+  multic1.play();
+  }
+  function JoueLeSon13(){
+  var multim1 = document.getElementById("13awav");
+  multim1.play();
+  }
+  function JoueLeSon14(){
+  var multin1 = document.getElementById("14awav");
+  multin1.play();
+  }
+  function JoueLeSon15(){
+  var multio1 = document.getElementById("15awav");
+  multio1.play();
+  }
+  function JoueLeSon16(){
+  var multip1 = document.getElementById("16awav");
+  multip1.play();
+  }
+
+
+
+function action1Press(){
+	version = version + 1;
+	if(version&gt;2){
+        version = 1;
+  	}
+  }
+document.getElementById("action1Pressa").addEventListener("click", action1Press);
+
+function actionx1Press(){
+	persistanceretinienne = 15;
+  }
+document.getElementById("actionx1aPress").addEventListener("click", actionx1Press);
+
+function actionx2Press(){
+	persistanceretinienne = 14;
+  }
+document.getElementById("actionx2aPress").addEventListener("click", actionx2Press);
+
+function actionx3Press(){
+	persistanceretinienne = 13;
+  }
+document.getElementById("actionx3aPress").addEventListener("click", actionx3Press);
+
+function actionx4Press(){
+	persistanceretinienne = 12;
+  }
+document.getElementById("actionx4aPress").addEventListener("click", actionx4Press);
+
+function actionx5Press(){
+	persistanceretinienne = 11;
+  }
+document.getElementById("actionx5aPress").addEventListener("click", actionx5Press);
+
+function actionx6Press(){
+	persistanceretinienne = 10;
+  }
+document.getElementById("actionx6aPress").addEventListener("click", actionx6Press);
+
+function actionx7Press(){
+	persistanceretinienne = 9;
+  }
+document.getElementById("actionx7aPress").addEventListener("click", actionx7Press);
+
+function actionx8Press(){
+	persistanceretinienne = 8;
+  }
+document.getElementById("actionx8aPress").addEventListener("click", actionx8Press);
+
+function actionx9Press(){
+	persistanceretinienne = 7;
+  }
+document.getElementById("actionx9aPress").addEventListener("click", actionx9Press);
+
+function actionx10Press(){
+	persistanceretinienne = 6;
+  }
+document.getElementById("actionx10aPress").addEventListener("click", actionx10Press);
+
+function actionx11Press(){
+	persistanceretinienne = 5;
+  }
+document.getElementById("actionx11aPress").addEventListener("click", actionx11Press);
+
+function actionx12Press(){
+	persistanceretinienne = 4;
+  }
+document.getElementById("actionx12aPress").addEventListener("click", actionx12Press);
+
+function actionx13Press(){
+	persistanceretinienne = 3;
+  }
+document.getElementById("actionx13aPress").addEventListener("click", actionx13Press);
+
+function actionx14Press(){
+	persistanceretinienne = 2;
+  }
+document.getElementById("actionx14aPress").addEventListener("click", actionx14Press);
+
+function actionx15Press(){
+	persistanceretinienne = 1;
+  }
+document.getElementById("actionx15aPress").addEventListener("click", actionx15Press);
+
+function actionx16Press(){
+	persistanceretinienne = 0;
+  }
+document.getElementById("actionx16aPress").addEventListener("click", actionx16Press);
+
+
+/**passerelle firefox 48 pour remplacer le bouton d'appel java**/
+   function load() { 
+lancertout1(); 
+
+   } 
+
+
+ document.addEventListener("DOMContentLoaded", function(event) {
+    load();
+  });
+/**fin passerelle firefox 48**/
+
+</pre>
+
+
+<script type="text/javascript" src="page-scripts/multidirectional-talk.js"></script>
+
+</body>
+
+</html> 

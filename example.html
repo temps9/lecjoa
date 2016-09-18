@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>multidirectional-talk</title>
+
+
+<style>
+
+.indique{
+  cursor:pointer;
+}
+.cachemoi {
+    display: none;
+}
+
+.sortdutrou {
+    display: inline;
+}
+
+.action{
+  position:absolute;
+  height:4%;
+  width:1.4%;
+  margin-top:33%;
+  background:blue;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.action5mn{
+  position:absolute;
+  height:4%;
+  width:1.4%;
+  margin-top:33%;
+  background:red;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.actionvitesse{
+  position:absolute;
+  height:4%;
+  width:1.4%;
+  margin-top:33%;
+  background:green;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.actionunivers{
+  position:absolute;
+  height:4%;
+  width:1.4%;
+  margin-top:33%;
+  background:black;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.actiontexte{
+  position:absolute;
+  height:4%;
+  width:1.4%;
+  margin-top:36%;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+
+
+.tourne80 {
+    float: left;
+    -ms-transform: rotate(80deg); 
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+}
+
+.tourne30 {
+    float: left;
+    -ms-transform: rotate(30deg); 
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.tourne45 {
+    float: left;
+    -ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.tourne335 {
+    float: left;
+    -ms-transform: rotate(335deg); 
+    -webkit-transform: rotate(335deg);
+    transform: rotate(335deg);
+}
+
+.tourne350 {
+    float: left;
+    -ms-transform: rotate(350deg); 
+    -webkit-transform: rotate(350deg);
+    transform: rotate(350deg);
+}
+.tourne60 {
+    float: left;
+    -ms-transform: rotate(60deg); 
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+.tourne75 {
+    float: left;
+    -ms-transform: rotate(75deg); 
+    -webkit-transform: rotate(75deg);
+    transform: rotate(75deg);
+}
+.tourne1 {
+    float: left;
+    -ms-transform: rotate(1deg); 
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+}
+.tourne15 {
+    float: left;
+    -ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.tourne365 {
+    float: left;
+    -ms-transform: rotate(365deg); 
+    -webkit-transform: rotate(365deg);
+    transform: rotate(365deg);
+}
+.tourne320 {
+    float: left;
+    -ms-transform: rotate(320deg); 
+    -webkit-transform: rotate(320deg);
+    transform: rotate(320deg);
+}
+.tourne5 {
+    float: left;
+    -ms-transform: rotate(5deg); 
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.tourne5 {
+    float: left;
+    -ms-transform: rotate(5deg); 
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+</style>
+</head>
+
+<body>
+
+
+  <div id='basewave1'> </div>
+  <div id='basewave2'> </div>
+  <div id='basewave3'> </div>
+  <div id='basewave4'> </div>
+  <div id='basewave5'> </div>
+  <div id='basewave6'> </div>
+  <div id='basewave7'> </div>
+  <div id='basewave8'> </div>
+  <div id='basewave9'> </div>
+  <div id='basewave10'> </div>
+  <div id='basewave11'> </div>
+  <div id='basewave12'> </div>
+  <div id='basewave13'> </div>
+  <div id='basewave14'> </div>
+  <div id='basewave15'> </div>
+  <div id='basewave16'> </div>
+
+
+
+
+
+
+ <div id="fleur1" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur1" class="cachemoi" >
+
+<div style="width:201px; height:101px  ; background-color:#fff200 ;opacity:0.99 ; border-radius:50% 100% 100% 100% / 100% 100% 100% 98%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+
+ <div id="fleur2" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur2" class="cachemoi" >
+
+<div style="width:201px; height:101px  ; background-color:#df3200 ;opacity:0.99 ; border-radius:100% 50% 100% 100% / 100% 100% 100% 98%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur3" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur3" class="cachemoi" >
+
+<div style="width:201px; height:101px  ; background-color:#af3200 ;opacity:0.99 ; border-radius:100% 100% 50% 100% / 100% 100% 100% 98%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur4" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur4" class="cachemoi" >
+
+<div style="width:201px; height:101px  ; background-color:#8f3200 ;opacity:0.99 ; border-radius:100% 100% 100% 50% / 100% 100% 100% 98%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+
+ <div id="fleur5" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur5" class="cachemoi" >
+
+<div style="width:201px; height:101px  ; background-color:#6f3200 ;opacity:0.99 ; border-radius:100% 100% 100% 100% / 50% 100% 100% 98%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+
+ <div id="fleur6" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur6" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur7" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur7" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur8" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur8" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur9" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur9" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+
+ <div id="fleur10" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:232px ; margin-top:70px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:220px ; margin-top:150px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:240px ; margin-top:220px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:240px ; margin-top:300px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:260px ; margin-top:410px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:250px ; margin-top:70px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:290px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:228px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:180px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:140px ; margin-top:380px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur10" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur11" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne45" style="position:absolute; margin-left:222px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne375"  style="position:absolute; margin-left:210px ; margin-top:130px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:314px ; margin-top:270px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:325px ; margin-top:383px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne365" style="position:absolute; margin-left:268px ; margin-top:73px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne105" style="position:absolute; margin-left:287px ; margin-top:68px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne15" style="position:absolute; margin-left:223px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:175px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne45" style="position:absolute; margin-left:135px ; margin-top:380px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur11" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur12" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne45" style="position:absolute; margin-left:222px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne375"  style="position:absolute; margin-left:210px ; margin-top:130px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:314px ; margin-top:270px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:325px ; margin-top:383px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne365" style="position:absolute; margin-left:268px ; margin-top:73px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne105" style="position:absolute; margin-left:287px ; margin-top:68px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne15" style="position:absolute; margin-left:223px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:175px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne45" style="position:absolute; margin-left:135px ; margin-top:380px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+
+ </div>
+<!--bis-->
+ <div id="bisfleur12" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur13" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne5"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:385px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne350" style="position:absolute; margin-left:280px ; margin-top:70px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne120" style="position:absolute; margin-left:287px ; margin-top:78px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:203px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:133px ; margin-top:270px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:85px ; margin-top:360px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+
+ </div>
+<!--bis-->
+ <div id="bisfleur13" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:280px ; margin-top:60px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:148px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:143px ; margin-top:388px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur14" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:210px ; margin-top:55px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:175px ; margin-top:110px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:344px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:385px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:70px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:287px ; margin-top:78px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:203px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:133px ; margin-top:270px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:85px ; margin-top:360px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur14" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:228px ; margin-top:64px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:320px ; margin-top:128px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne1" style="position:absolute; margin-left:250px ; margin-top:220px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:242px ; margin-top:320px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:248px ; margin-top:424px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne320" style="position:absolute; margin-left:277px ; margin-top:56px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:330px ; margin-top:50px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne290" style="position:absolute; margin-left:299px ; margin-top:180px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:342px ; margin-top:238px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:345px ; margin-top:354px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur15" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:287px ; margin-top:78px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:203px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:98px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:108px ; margin-top:427px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur15" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne45" style="position:absolute; margin-left:222px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15"  style="position:absolute; margin-left:275px ; margin-top:20px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne350" style="position:absolute; margin-left:330px ; margin-top:220px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:358px ; margin-top:210px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:368px ; margin-top:420px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne365" style="position:absolute; margin-left:275px ; margin-top:67px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:232px ; margin-top:70px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:210px ; margin-top:150px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne365" style="position:absolute; margin-left:213px ; margin-top:220px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:278px ; margin-top:282px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:224px ; margin-top:369px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+<!--fin bis-->
+
+ <div id="fleur16" class="cachemoi">
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne80" style="position:absolute; margin-left:210px ; margin-top:45px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne30"  style="position:absolute; margin-left:160px ; margin-top:80px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:200px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne335" style="position:absolute; margin-left:354px ; margin-top:280px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne350" style="position:absolute; margin-left:405px ; margin-top:372px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne5" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne335" style="position:absolute; margin-left:280px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:287px ; margin-top:78px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:203px ; margin-top:215px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne60" style="position:absolute; margin-left:143px ; margin-top:290px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne75" style="position:absolute; margin-left:98px ; margin-top:388px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:108px ; margin-top:427px ; width:9px; height:8px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+ </div>
+
+<!--bis-->
+ <div id="bisfleur16" class="cachemoi" >
+
+<div style="position:absolute; margin-left:250px ; margin-top:10px ; width:50px; height:60px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne45" style="position:absolute; margin-left:222px ; margin-top:60px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne15"  style="position:absolute; margin-left:275px ; margin-top:20px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius: 67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+
+<div class="tourne320" style="position:absolute; margin-left:280px ; margin-top:190px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:328px ; margin-top:267px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:338px ; margin-top:375px ; width:36px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:28% 60% 50% 50% / 28% 60% 50% 50%;  "> </div>
+
+<div class="tourne1" style="position:absolute; margin-left:240px ; margin-top:70px ; width:50px; height:180px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+
+<div class="tourne30" style="position:absolute; margin-left:232px ; margin-top:70px ; width:40px; height:100px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 60% 60% / 50% 50% 60% 60%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:210px ; margin-top:150px ; width:30px; height:90px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 67% 67% / 67% 67% 67% 67%;  "> </div>
+
+<div class="tourne365" style="position:absolute; margin-left:252px ; margin-top:220px ; width:40px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;  "> </div>
+<div class="tourne15" style="position:absolute; margin-left:255px ; margin-top:310px ; width:30px; height:120px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+<div class="tourne1" style="position:absolute; margin-left:260px ; margin-top:420px ; width:27px; height:15px  ; background-color:#ff9999 ;opacity:0.99 ; border-radius:67% 67% 50% 50% / 67% 67% 50% 50%;  "> </div>
+
+
+ </div>
+<!--fin bis-->
+
+      <!-- bare de temps -->
+      <div class="action" id="actionx1aPress" style="margin-left:1%;"></div>
+      <div class="action" id="actionx2aPress" style="margin-left:3%;"></div>
+      <div class="action" id="actionx3aPress" style="margin-left:5%;"></div>
+      <div class="action" id="actionx4aPress" style="margin-left:7%;"></div>
+      <div class="action" id="actionx5aPress" style="margin-left:9%;"></div>
+      <div class="action" id="actionx6aPress" style="margin-left:11%;"></div>
+      <div class="action" id="actionx7aPress" style="margin-left:13%;"></div>
+      <div class="action" id="actionx8aPress" style="margin-left:15%;"></div>
+      <div class="action" id="actionx9aPress" style="margin-left:17%;"></div>
+      <div class="action" id="actionx10aPress" style="margin-left:19%;"></div>
+      <div class="action" id="actionx11aPress" style="margin-left:21%;"></div>
+      <div class="action" id="actionx12aPress" style="margin-left:23%;"></div>
+      <div class="action" id="actionx13aPress" style="margin-left:25%;"></div>
+      <div class="action" id="actionx14aPress" style="margin-left:27%;"></div>
+      <div class="action" id="actionx15aPress" style="margin-left:29%;"></div>
+      <div class="action" id="actionx16aPress" style="margin-left:31%;"></div> 
+
+       <div class="action5mn" id="actionstopa" style="margin-left:61%;"></div>
+       <div class="action5mn" id="actionrestarta" style="margin-left:63%;"></div>
+
+      <div class="actionvitesse" id="diminuLeVenta" style="margin-left:67%;">-</div>
+      <div class="actionvitesse" id="acelereLeVenta" style="margin-left:69%;">+</div>
+      <div class="actionunivers" id="action1Pressa" style="margin-left:75%;"></div>
+
+
+       <div class="actiontexte" style="margin-left:15%;"><p>time line</p></div>
+       <div class="actiontexte" style="margin-left:61%;"><p>pause</p></div>
+      <div class="actiontexte" style="margin-left:67%;"><p>speed</p></div>
+      <div class="actiontexte" style="margin-left:75%;"><p>multidirectional talk</p></div>
+<!---->
+
+<script type="text/javascript" src="page-scripts/example.js"></script>
+
+<!---->
+
+
+<script type="text/javascript" src="page-scripts/jom.js"></script>
+</body>
+
+</html> 
+

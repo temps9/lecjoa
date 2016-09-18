@@ -1,0 +1,40 @@
+{
+
+  "description": "Play audio file jo. Play audio file joa. Play audio file joh. Generates video multidirectional",
+  "manifest_version": 2,
+  "name": "Lecjoa",
+  "version": "2.3.4",
+
+  "homepage_url": "http://www.letime.net/lecjo/jo.html",
+  "icons": {
+    "48": "icons/lecjoa-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "lecjoa@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+ 	    "background": {
+	        "scripts": ["page-scripts/background.js"],
+	        "page": "lecjo.html"
+	    },
+	 
+	 
+	    "scripts": [
+	        {
+	 
+	      "matches": ["lecjo.html","lecjoa.html","lecjoh.html","multidirectional-talk.html", "example.html","code_jom_js.html"],
+	      "css": ["multidirectional-talk.css"],
+	      "js": ["page-scripts/jo.js", "page-scripts/joa.js","page-scripts/joh.js","page-scripts/multidirectional-talk.js","page-scripts/jom.js", "page-scripts/example.js", "page-scripts/son.js", "page-scripts/convertit.js", "page-scripts/table.js"]
+	   
+	        }
+	    ]
+		  ,
+
+  "browser_action": {
+    "default_icon": "icons/lecjoa-32.png"
+  }
+}

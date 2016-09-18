@@ -1,0 +1,18 @@
+h1
+{
+    color: blue;
+     margin:3px;
+}
+
+h2
+{
+    color: teal;
+     margin:3px;
+}
+
+h2:hover
+{
+    color : blue;
+}
+
+
