@@ -1,9 +1,9 @@
 {
 
-  "description": "Play audio file jo. Play audio file joa. Play audio file joh. Generates video multidirectional",
+  "description": "Play audio file jo. Play audio file joa. Play audio file joh. Generates video multidirectional, play adn audio format",
   "manifest_version": 2,
   "name": "Lecjoa",
-  "version": "2.3.5",
+  "version": "2.3.6",
 
   "homepage_url": "http://www.letime.net/lecjo/jo.html",
   "icons": {
@@ -26,9 +26,9 @@
 	    "scripts": [
 	        {
 	 
-	      "matches": ["lecjo.html","lecjoa.html","lecjoh.html","multidirectional-talk.html", "example.html","code_jom_js.html"],
+	      "matches": ["lecjo.html","lecjoa.html","lecjoh.html","multidirectional-talk.html", "example.html", "adn.html", "code_jom_js.html"],
 	      "css": ["multidirectional-talk.css"],
-	      "js": ["page-scripts/jo.js", "page-scripts/joa.js","page-scripts/joh.js","page-scripts/multidirectional-talk.js","page-scripts/jom.js", "page-scripts/example.js", "page-scripts/son.js", "page-scripts/convertit.js", "page-scripts/table.js", "page-scripts/adaptateur.js"]
+	      "js": ["page-scripts/jo.js", "page-scripts/joa.js","page-scripts/joh.js","page-scripts/multidirectional-talk.js","page-scripts/jom.js", "page-scripts/example.js", "page-scripts/son.js", "page-scripts/convertit.js", "page-scripts/table.js", "page-scripts/adaptateur.js", "page-scripts/adn.js"]
 	   
 	        }
 	    ]
