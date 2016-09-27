@@ -12,7 +12,7 @@ localStorage.removeItem("nb2", input2.value);
 localStorage.setItem("nb2", input2.value);
 donne2 = localStorage.getItem("nb2");
 
-/*********met en memoire valeur css 3 background-color*****/
+/*********met en memoire valeur css 3 *****/
 var input3 = document.getElementById("Nb3");
 localStorage.removeItem("nb3", input3.value);
 localStorage.setItem("nb3", input3.value);
@@ -65,6 +65,120 @@ var input11 = document.getElementById("Nb11");
 localStorage.removeItem("nb11", input11.value);
 localStorage.setItem("nb11", input11.value);
 donne11 = localStorage.getItem("nb11");
+
+/*********met en memoire valeur css 12*****/
+var input12 = document.getElementById("Nb12");
+localStorage.removeItem("nb12", input12.value);
+localStorage.setItem("nb12", input12.value);
+donne12 = localStorage.getItem("nb12");
+
+/*********met en memoire valeur css 13*****/
+var input13 = document.getElementById("Nb13");
+localStorage.removeItem("nb13", input13.value);
+localStorage.setItem("nb13", input13.value);
+donne13 = localStorage.getItem("nb13");
+
+/*********met en memoire valeur css 14*****/
+var input14 = document.getElementById("Nb14");
+localStorage.removeItem("nb14", input14.value);
+localStorage.setItem("nb14", input14.value);
+donne14 = localStorage.getItem("nb14");
+
+/*********met en memoire valeur css 15*****/
+var input15 = document.getElementById("Nb15");
+localStorage.removeItem("nb15", input15.value);
+localStorage.setItem("nb15", input15.value);
+donne15 = localStorage.getItem("nb15");
+
+/*********met en memoire valeur css 16*****/
+var input16 = document.getElementById("Nb16");
+localStorage.removeItem("nb16", input16.value);
+localStorage.setItem("nb16", input16.value);
+donne16 = localStorage.getItem("nb16");
+
+/*********met en memoire valeur css 17*****/
+var input17 = document.getElementById("Nb17");
+localStorage.removeItem("nb17", input17.value);
+localStorage.setItem("nb17", input17.value);
+donne17 = localStorage.getItem("nb17");
+
+/*********met en memoire valeur css 18*****/
+var input18 = document.getElementById("Nb18");
+localStorage.removeItem("nb18", input18.value);
+localStorage.setItem("nb18", input18.value);
+donne18 = localStorage.getItem("nb18");
+
+/*********met en memoire valeur css 19*****/
+var input19 = document.getElementById("Nb19");
+localStorage.removeItem("nb19", input19.value);
+localStorage.setItem("nb19", input19.value);
+donne19 = localStorage.getItem("nb19");
+
+/*********met en memoire valeur css 20*****/
+var input20 = document.getElementById("Nb20");
+localStorage.removeItem("nb20", input20.value);
+localStorage.setItem("nb20", input20.value);
+donne20 = localStorage.getItem("nb20");
+
+/*********met en memoire valeur css 21*****/
+var input21 = document.getElementById("Nb21");
+localStorage.removeItem("nb21", input21.value);
+localStorage.setItem("nb21", input21.value);
+donne21 = localStorage.getItem("nb21");
+
+/*********met en memoire valeur css 22*****/
+var input22 = document.getElementById("Nb22");
+localStorage.removeItem("nb22", input22.value);
+localStorage.setItem("nb22", input22.value);
+donne22 = localStorage.getItem("nb22");
+
+/*********met en memoire valeur css 23*****/
+var input23 = document.getElementById("Nb23");
+localStorage.removeItem("nb23", input23.value);
+localStorage.setItem("nb23", input23.value);
+donne23 = localStorage.getItem("nb23");
+
+/*********met en memoire valeur css 24*****/
+var input24 = document.getElementById("Nb24");
+localStorage.removeItem("nb24", input24.value);
+localStorage.setItem("nb24", input24.value);
+donne24 = localStorage.getItem("nb24");
+
+/*********met en memoire valeur css 25*****/
+var input25 = document.getElementById("Nb25");
+localStorage.removeItem("nb25", input25.value);
+localStorage.setItem("nb25", input25.value);
+donne25 = localStorage.getItem("nb25");
+
+/*********met en memoire valeur css 26*****/
+var input26 = document.getElementById("Nb26");
+localStorage.removeItem("nb26", input26.value);
+localStorage.setItem("nb26", input26.value);
+donne26 = localStorage.getItem("nb26");
+
+/*********met en memoire valeur css 27*****/
+var input27 = document.getElementById("Nb27");
+localStorage.removeItem("nb27", input27.value);
+localStorage.setItem("nb27", input27.value);
+donne27 = localStorage.getItem("nb27");
+
+/*********met en memoire valeur css 28*****/
+var input28 = document.getElementById("Nb28");
+localStorage.removeItem("nb28", input28.value);
+localStorage.setItem("nb28", input28.value);
+donne28 = localStorage.getItem("nb28");
+
+/*********met en memoire valeur css 29*****/
+var input29 = document.getElementById("Nb29");
+localStorage.removeItem("nb29", input29.value);
+localStorage.setItem("nb29", input29.value);
+donne29 = localStorage.getItem("nb29");
+
+/*********met en memoire valeur css 30*****/
+var input30 = document.getElementById("Nb30");
+localStorage.removeItem("nb30", input30.value);
+localStorage.setItem("nb30", input30.value);
+donne30 = localStorage.getItem("nb30");
 
 
 
@@ -808,8 +922,21 @@ FichierAudioJo.push(donne2);
 FichierAudioJo.push(donne9);
 
 FichierAudioJo.push(donne10);
-
 				}
+
+if (donne17 == 1) {
+for (nomb = 0; nomb < donne20; nomb++) {
+FichierAudioJo.push(donne18);
+
+FichierAudioJo.push(donne19);
+
+FichierAudioJo.push(donne27);
+
+FichierAudioJo.push(donne28);
+				}
+		}
+
+
 FichierAudioJo = FichierAudioJo.map(Number);
 lecjoa1(FichierAudioJo);
 
