@@ -180,8 +180,251 @@ localStorage.removeItem("nb30", input30.value);
 localStorage.setItem("nb30", input30.value);
 donne30 = localStorage.getItem("nb30");
 
+/*********met en memoire valeur css 31*****/
+var input31 = document.getElementById("Nb31");
+localStorage.removeItem("nb31", input31.value);
+localStorage.setItem("nb31", input31.value);
+donne31 = localStorage.getItem("nb31");
 
+/*********met en memoire valeur css 32*****/
+var input32 = document.getElementById("Nb32");
+localStorage.removeItem("nb32", input32.value);
+localStorage.setItem("nb32", input32.value);
+donne32 = localStorage.getItem("nb32");
 
+/*********met en memoire valeur css 33*****/
+var input33 = document.getElementById("Nb33");
+localStorage.removeItem("nb33", input33.value);
+localStorage.setItem("nb33", input33.value);
+donne33 = localStorage.getItem("nb33");
+
+/*********met en memoire valeur css 34*****/
+var input34 = document.getElementById("Nb34");
+localStorage.removeItem("nb34", input34.value);
+localStorage.setItem("nb34", input34.value);
+donne34 = localStorage.getItem("nb34");
+
+/*********met en memoire valeur css 35*****/
+var input35 = document.getElementById("Nb35");
+localStorage.removeItem("nb35", input35.value);
+localStorage.setItem("nb35", input35.value);
+donne35 = localStorage.getItem("nb35");
+
+/*********met en memoire valeur css 36*****/
+var input36 = document.getElementById("Nb36");
+localStorage.removeItem("nb36", input36.value);
+localStorage.setItem("nb36", input36.value);
+donne36 = localStorage.getItem("nb36");
+
+/*********met en memoire valeur css 37*****/
+var input37 = document.getElementById("Nb37");
+localStorage.removeItem("nb37", input37.value);
+localStorage.setItem("nb37", input37.value);
+donne37 = localStorage.getItem("nb37");
+
+/*********met en memoire valeur css 38*****/
+var input38 = document.getElementById("Nb38");
+localStorage.removeItem("nb38", input38.value);
+localStorage.setItem("nb38", input38.value);
+donne38 = localStorage.getItem("nb38");
+
+/*********met en memoire valeur css 39*****/
+var input39 = document.getElementById("Nb39");
+localStorage.removeItem("nb39", input39.value);
+localStorage.setItem("nb39", input39.value);
+donne39 = localStorage.getItem("nb39");
+
+/*********met en memoire valeur css 40*****/
+var input40 = document.getElementById("Nb40");
+localStorage.removeItem("nb40", input40.value);
+localStorage.setItem("nb40", input40.value);
+donne40 = localStorage.getItem("nb40");
+
+/*********met en memoire valeur css 41*****/
+var input41 = document.getElementById("Nb41");
+localStorage.removeItem("nb41", input41.value);
+localStorage.setItem("nb41", input41.value);
+donne41 = localStorage.getItem("nb41");
+
+/*********met en memoire valeur css 42*****/
+var input42 = document.getElementById("Nb42");
+localStorage.removeItem("nb42", input42.value);
+localStorage.setItem("nb42", input42.value);
+donne42 = localStorage.getItem("nb42");
+
+/*********met en memoire valeur css 43*****/
+var input43 = document.getElementById("Nb43");
+localStorage.removeItem("nb43", input43.value);
+localStorage.setItem("nb43", input43.value);
+donne43 = localStorage.getItem("nb43");
+
+/*********met en memoire valeur css 44*****/
+var input44 = document.getElementById("Nb44");
+localStorage.removeItem("nb44", input44.value);
+localStorage.setItem("nb44", input44.value);
+donne44 = localStorage.getItem("nb44");
+
+/*********met en memoire valeur css 45*****/
+var input45 = document.getElementById("Nb45");
+localStorage.removeItem("nb45", input45.value);
+localStorage.setItem("nb45", input45.value);
+donne45 = localStorage.getItem("nb45");
+
+/*********met en memoire valeur css 46*****/
+var input46 = document.getElementById("Nb46");
+localStorage.removeItem("nb46", input46.value);
+localStorage.setItem("nb46", input46.value);
+donne46 = localStorage.getItem("nb46");
+
+/*********met en memoire valeur css 47*****/
+var input47 = document.getElementById("Nb47");
+localStorage.removeItem("nb47", input47.value);
+localStorage.setItem("nb47", input47.value);
+donne47 = localStorage.getItem("nb47");
+
+/*********met en memoire valeur css 48*****/
+var input48 = document.getElementById("Nb48");
+localStorage.removeItem("nb48", input48.value);
+localStorage.setItem("nb48", input48.value);
+donne48 = localStorage.getItem("nb48");
+
+/*********met en memoire valeur css 49*****/
+var input49 = document.getElementById("Nb49");
+localStorage.removeItem("nb49", input49.value);
+localStorage.setItem("nb49", input49.value);
+donne49 = localStorage.getItem("nb49");
+
+/*********met en memoire valeur css 50*****/
+var input50 = document.getElementById("Nb50");
+localStorage.removeItem("nb50", input50.value);
+localStorage.setItem("nb50", input50.value);
+donne50 = localStorage.getItem("nb50");
+
+/*********met en memoire valeur css 51*****/
+var input51 = document.getElementById("Nb51");
+localStorage.removeItem("nb51", input51.value);
+localStorage.setItem("nb51", input51.value);
+donne51 = localStorage.getItem("nb51");
+
+/*********met en memoire valeur css 52*****/
+var input52 = document.getElementById("Nb52");
+localStorage.removeItem("nb52", input52.value);
+localStorage.setItem("nb52", input52.value);
+donne52 = localStorage.getItem("nb52");
+
+/*********met en memoire valeur css 53*****/
+var input53 = document.getElementById("Nb53");
+localStorage.removeItem("nb53", input53.value);
+localStorage.setItem("nb53", input53.value);
+donne53 = localStorage.getItem("nb53");
+
+/*********met en memoire valeur css 54*****/
+var input54 = document.getElementById("Nb54");
+localStorage.removeItem("nb54", input54.value);
+localStorage.setItem("nb54", input54.value);
+donne54 = localStorage.getItem("nb54");
+
+/*********met en memoire valeur css 55*****/
+var input55 = document.getElementById("Nb55");
+localStorage.removeItem("nb55", input55.value);
+localStorage.setItem("nb55", input55.value);
+donne55 = localStorage.getItem("nb55");
+
+/*********met en memoire valeur css 56*****/
+var input56 = document.getElementById("Nb56");
+localStorage.removeItem("nb56", input56.value);
+localStorage.setItem("nb56", input56.value);
+donne56 = localStorage.getItem("nb56");
+
+/*********met en memoire valeur css 57*****/
+var input57 = document.getElementById("Nb57");
+localStorage.removeItem("nb57", input57.value);
+localStorage.setItem("nb57", input57.value);
+donne57 = localStorage.getItem("nb57");
+
+/*********met en memoire valeur css 58*****/
+var input58 = document.getElementById("Nb58");
+localStorage.removeItem("nb58", input58.value);
+localStorage.setItem("nb58", input58.value);
+donne58 = localStorage.getItem("nb58");
+
+/*********met en memoire valeur css 59*****/
+var input59 = document.getElementById("Nb59");
+localStorage.removeItem("nb59", input59.value);
+localStorage.setItem("nb59", input59.value);
+donne59 = localStorage.getItem("nb59");
+
+/*********met en memoire valeur css 60*****/
+var input60 = document.getElementById("Nb60");
+localStorage.removeItem("nb60", input60.value);
+localStorage.setItem("nb60", input60.value);
+donne60 = localStorage.getItem("nb60");
+
+/*********met en memoire valeur css 61*****/
+var input61 = document.getElementById("Nb61");
+localStorage.removeItem("nb61", input61.value);
+localStorage.setItem("nb61", input61.value);
+donne61 = localStorage.getItem("nb61");
+
+/*********met en memoire valeur css 62*****/
+var input62 = document.getElementById("Nb62");
+localStorage.removeItem("nb62", input62.value);
+localStorage.setItem("nb62", input62.value);
+donne62 = localStorage.getItem("nb62");
+
+/*********met en memoire valeur css 63*****/
+var input63 = document.getElementById("Nb63");
+localStorage.removeItem("nb63", input63.value);
+localStorage.setItem("nb63", input63.value);
+donne63 = localStorage.getItem("nb63");
+
+/*********met en memoire valeur css 64*****/
+var input64 = document.getElementById("Nb64");
+localStorage.removeItem("nb64", input64.value);
+localStorage.setItem("nb64", input64.value);
+donne64 = localStorage.getItem("nb64");
+
+/*********met en memoire valeur css 65*****/
+var input65 = document.getElementById("Nb65");
+localStorage.removeItem("nb65", input65.value);
+localStorage.setItem("nb65", input65.value);
+donne65 = localStorage.getItem("nb65");
+
+/*********met en memoire valeur css 66*****/
+var input66 = document.getElementById("Nb66");
+localStorage.removeItem("nb66", input66.value);
+localStorage.setItem("nb66", input66.value);
+donne66 = localStorage.getItem("nb66");
+
+/*********met en memoire valeur css 67*****/
+var input67 = document.getElementById("Nb67");
+localStorage.removeItem("nb67", input67.value);
+localStorage.setItem("nb67", input67.value);
+donne67 = localStorage.getItem("nb67");
+
+/*********met en memoire valeur css 68*****/
+var input68 = document.getElementById("Nb68");
+localStorage.removeItem("nb68", input68.value);
+localStorage.setItem("nb68", input68.value);
+donne68 = localStorage.getItem("nb68");
+
+/*********met en memoire valeur css 69*****/
+var input69 = document.getElementById("Nb69");
+localStorage.removeItem("nb69", input69.value);
+localStorage.setItem("nb69", input69.value);
+donne69 = localStorage.getItem("nb69");
+
+/*********met en memoire valeur css 70*****/
+var input70 = document.getElementById("Nb70");
+localStorage.removeItem("nb70", input70.value);
+localStorage.setItem("nb70", input70.value);
+donne70 = localStorage.getItem("nb70");
+
+/*********met en memoire valeur css 71*****/
+var input71 = document.getElementById("Nb71");
+localStorage.removeItem("nb71", input71.value);
+localStorage.setItem("nb71", input71.value);
+donne71 = localStorage.getItem("nb71");
 }
 
 /*********************/    
@@ -914,6 +1157,10 @@ return NbPtTotal;
 function lecjoadn() {
 regarde();
 var nomb;
+var nombi;
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
 for (nomb = 0; nomb < donne3; nomb++) {
 FichierAudioJo.push(donne1);
 
@@ -935,6 +1182,19 @@ FichierAudioJo.push(donne27);
 FichierAudioJo.push(donne28);
 				}
 		}
+
+if (donne35 == 1) {
+for (nomb = 0; nomb < donne38; nomb++) {
+FichierAudioJo.push(donne36);
+
+FichierAudioJo.push(donne37);
+
+FichierAudioJo.push(donne45);
+
+FichierAudioJo.push(donne46);
+					}
+		}
+					}
 
 
 FichierAudioJo = FichierAudioJo.map(Number);
