@@ -39,12 +39,7 @@ function genereLaFin()
 
 lenommeur1= "basewave";
 
-console.log(levariateur);
-
 levariateur = levariateur + 1;
-
-console.log(levariateur);
-
 
 lenommeur = lenommeur1.concat(levariateur); 
 switch(levariateur) {
@@ -369,7 +364,6 @@ ajouteElement9();
 /**reglage force de l'amplitude***/
 var volume = Math.floor(65535 / 8);
 
-//samples = NbPtTotal*0.25;
 durerentete=NbPtTotal*2;
 
 samples = durerentete*16;
@@ -739,13 +733,6 @@ FichierAudioJox = document.getElementById("dessindeforme1").value;
 FichierAudioJo = FichierAudioJox.split(" ").map(Number);
 lecjoa1(FichierAudioJo);
 
-
-
-
-//console.log(e.target.result);
-console.log(choixjojoa);
-console.log(FichierAudioJo);
-console.log(FichierAudioJo.length);
     }
 /****************************fin premier niveau qui ouvre le fichier*****************************************************/
 

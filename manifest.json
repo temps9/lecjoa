@@ -12,12 +12,12 @@
     "default_icon": "icons/lecjoa-32.png"
   },
   "description": "Play audio file jo. Play audio file joa. Play audio file joh. Generates video multidirectional, play adn audio format",
-  "homepage_url": "https://github.com/temps9/lecjoa",
+  "homepage_url": "https://addons.mozilla.org/en-US/firefox/addon/lecjoa/",
   "manifest_version": 2,
   "name": "Lecjoa",
   "options_ui": {
       "page": "lecjo.html"
   },
   "permissions": ["storage"],
-  "version": "2.3.8.1"
+  "version": "2.3.8.4"
 }

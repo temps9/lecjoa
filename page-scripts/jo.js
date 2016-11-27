@@ -11,16 +11,11 @@ function setupReader(file) {
     var reader = new FileReader();  
     reader.onload = function(e) {  
  text1 = e.target.result.split(""); 
-console.log(text1.length);
-console.log(text1);
 
 
 
 convertit(text1);
 
-//console.log(e.target.result);
-console.log(FichierAudioJo);
-console.log(FichierAudioJo.length);
 
 
 /*********************************deuxième partie*********************************************************************************/
@@ -51,12 +46,8 @@ function genereLaFin()
 
 lenommeur1= "basewave";
 
-console.log(levariateur);
 
 levariateur = levariateur + 1;
-
-console.log(levariateur);
-
 
 lenommeur = lenommeur1.concat(levariateur); 
 switch(levariateur) {

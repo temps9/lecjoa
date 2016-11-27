@@ -1217,6 +1217,22 @@ nombe = 1;
 }
 var nombf;
 
+var waxx2 = 128 - donne54;
+var waxx1 = donne54 - (-128);
+function maFonction7() {
+var xx7 = waxx2 - donne58;
+xx7 = (30 > xx7) ? 30 : xx7;
+  return xx7;
+}
+function maFonction8() {
+var xx8 = waxx1 - (-donne58);
+if(xx8 > 220){xx8 = 220;}
+return xx8;
+}
+
+switch (donne53) {
+
+  case "0":
 
 
 switch (donne11) {
@@ -2322,14 +2338,1005 @@ FichierAudioJo.push(donne46);
 	}//1 fin du for donne71
 
         break;//fin donne11 == 4
-        break;	//fin zone 6 fronts
-}// fin de la boucle du nombre de sons différents
+        break;	//fin zone 6 fronts			
+}//fin switch donne11 
+
+        break;	//donne53 = 0	
+
+  case "1":// donne53 = 1
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne55);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne55);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne55);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne55);
+
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne55);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne55);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne55);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne55);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 1
+
+/*****************************************/
+
+  case "2":// donne53 = 2
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 2
+/*****************************************/
+
+  case "3":// donne53 = 3
+
+FichierAudioJo.push(Number(donne54) + 128); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 3
+/*****************************************/
+
+  case "4":// donne53 = 4
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne1);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 4
+
+/*****************************************/
+
+  case "5":// donne53 = 5
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 5
+
+/*****************************************/
+
+  case "6":// donne53 = 6
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 6
+
+/*****************************************/
+
+  case "7":// donne53 = 7
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 7
+
+
+  case "8":// donne53 = 8
+
+FichierAudioJo.push(Number(donne54) + 128);
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(128 - donne54); 
+FichierAudioJo.push(donne10);
+
+if(donne56 == 0){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+
+} // fin for nombi
+} // fin if donne56 == 0
+
+if((donne56 > 0)&&(donne57==0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+if((donne56 > 0)&&(donne57 > 0)){
+
+for (nombi = 0; nombi < donne71; nombi++) {
+
+waxx1 = maFonction8();
+waxx2 = maFonction7();
+
+for (var nombia = 0; nombia < donne56; nombia++) {
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne37);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne28);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne19);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+for (var nombiab = 0; nombiab < donne59; nombiab ++) {
+FichierAudioJo.push(waxx1); 
+FichierAudioJo.push(donne10);
+FichierAudioJo.push(waxx1-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+for (var nombiab = 0; nombiab < donne59; nombiab++) {
+FichierAudioJo.push(waxx2); 
+FichierAudioJo.push(donne2);
+FichierAudioJo.push(waxx2-1); 
+FichierAudioJo.push(donne57);
+} // fin for donne59
+
+
+} // fin for donne56
+
+
+} // fin for nombi
+} // fin if donne56 > 0
+
+
+        break;	//donne53 = 8
+
+}//fin switch  donne53
+
+//}// fin de la boucle du nombre de sons différents
+
 
 FichierAudioJo = FichierAudioJo.map(Number);
 lecjoa1(FichierAudioJo);
 
-console.log(FichierAudioJo);
-console.log(FichierAudioJo.length);
     }
 /****************************fin premier niveau qui ouvre le fichier*****************************************************/
 

@@ -112,7 +112,7 @@ donne13 = localStorage.getItem("nb13");
 /*********met en memoire valeur css 14 *****/
 
 var input14 = document.getElementById("Nb14").value;
-console.log(input14);
+
 switch(input14) {
     case "1":	position = ["static"];
         break;

@@ -17,8 +17,11 @@ This extension includes:
 * a page "multidirectional-talk.js"
 * a page "jom.js"
 * a page "example.html"
+* a page "adn.js"
+* a page "adn.html"
 
 All it does is: when the user clicks the button, open "lecjo.html" in a new tab.
+And under construction, the application track if the audio format dna (adn) is contained in a webpage. If so, the application encodes and plays the sound
 
 ## What it shows
 
