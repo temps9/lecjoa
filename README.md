@@ -16,6 +16,8 @@ This extension includes:
 * a page "multidirectional-talk.css"
 * a page "multidirectional-talk.js"
 * a page "jom.js"
+* a page "tab.js"
+* a page "adapt.js"
 * a page "example.html"
 * a page "adn.js"
 * a page "adn.html"
