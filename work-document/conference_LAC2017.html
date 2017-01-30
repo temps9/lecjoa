@@ -38,15 +38,23 @@ battit, seul me rend, <br/>
 Comme si Dieu devenait avare en âme avec
 le temps.<br/>
 Quand l'esprit commence à ranger les mots,<br/>
-c'est qu'ils n'ont déjà plus de raison d'exister ;<br/>
-Je cri, je pousse, je saute, je creuse, je donne mon oh,<br/>
-Mais le désert ne renvoie pas d’écho, au sang versé.<br/>
-Lecjoa es-tu là ? Lecjoa qui es-tu ? Lecjoa que fait-tu ?<br/>
-Lecjoa fait de la chenille un papillon, une mue. <br/>
-Enfin, j'espère. Peu importe que les dimensions,<br/>
-crées les couleurs, Peu importe que les dimensions, crées les sons.<br/>
+c'est
+qu'ils n'ont déjà plus de raison d'exister ;<br/>
+Je cri, je
+pousse, je saute, je creuse, je donne mon oh,<br/>
+Mais le désert ne
+renvoie pas d’écho, au sang versé.<br/>
+Lecjoa es-tu là ? Lecjoa
+qui es-tu ? Lecjoa que fait-tu ?<br/>
+Lecjoa fait de la chenille un
+papillon, une mue. <br/>
+Enfin, j'espère. Peu importe que les
+dimensions,<br/>
+crées les couleurs, Peu importe que les dimensions,
+crées les sons.<br/>
 L'entendement se fait avec le langage, <br/>
-ce qui m'importe c'est de ne pas resté seul en ce voyage. 
+ce
+qui m'importe c'est de ne pas resté seul en ce voyage. 
 </p>
 <h2 class="western" align="center">Au commencement il y avait la
 femme.</h2>
@@ -185,5 +193,128 @@ par l’exemple expliqué</h2>
 <br/>
 
 </p>
+<h2 class="western" align="center">Les fichiers</h2>
+<p style="margin-bottom: 0cm; line-height: 100%">-multidirectional-talk.html&nbsp;:</p>
+<p align="left">Ce fichier est la page d’accueil html dans
+l’extension Lecjoa. Il est composé de sélecteurs pour dessiner et
+composer la bande son.</p>
+<p align="left">-tab.js&nbsp;:</p>
+<p align="left">Ce fichier permet de donner toutes les solutions
+possibles aux opérations</p>
+<p align="left">mathématiques afin de corriger la technologie.</p>
+<p align="left">-adapt.js&nbsp;:</p>
+<p align="left">Ce fichier permet de créer l’entête du fichier
+audio.</p>
+<p align="left">-jom.js&nbsp;:</p>
+<p align="left">Ce fichier permet de construire le contenue du
+fichier audio compatible avec les</p>
+<p align="left">normes actuelles</p>
+<p align="left">-index.html&nbsp;:</p>
+<p align="left">ce fichier est la page HTML générée</p>
+<p align="left">-example.js&nbsp;:</p>
+<p align="left">ce fichier est la page javascript générée.</p>
+<h2 class="western" align="center">La structure générée</h2>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">En
+préparation, nous créons un répertoire contenant les fichiers&nbsp;:
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">tab.js,
+adapt.js et jom.js qui se récupèrent par copier/coller dans
+l’extension Lecjoa. Pour récupérer le document, nous cliquons
+dans la barre des taches de firefox, sur (Edit--→Select All), puis
+avec notre éditeur de texte, nous collons dans le répertoire au nom
+du fichier créé.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Dans
+l’extension Lecjoa, nous ouvrons la page du générateur, nous
+générons notre vidéo interactive, puis encore nous cliquons dans
+la barre des taches de firefox, sur (Edit--→Select All), que nous
+copions dans un fichier au nom de index.html.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Avec
+l’éditeur de texte, dans index.html nous supprimons tous les
+termes se trouvant au dessus de &lt;!DOCTYPE html&gt;, donc jusqu’à
+‘paste the generated video multidirectional) inclus.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Puis
+nous faisons un couper/coller de tous les termes se trouvant en
+dessous des termes (&lt;/body&gt;&lt;/html&gt; ). Toujours avec
+l’éditeur de texte nous créons un fichier dans le répertoire au
+nom de example.js. Dans ce fichier nous collons, le texte couper dans
+index.html. 
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Dans
+example.js nous supprimons (Part javascript to copy / paste the file
+example.js), les premiers termes au début du fichier.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<h2 class="western" align="center">Quelques retouches de jeunesse</h2>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Le
+temps d’ajuster les codes, quelques règles s’imposent.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">-1 Tous
+les sélecteurs doivent contenir une valeur validée avec la flèche
+de déroulement.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">-2 Un
+clique est obligatoire sur le bouton (speed) pour indiquer la
+première vitesse de défilement.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">-3 Il
+faut indiquer au générateur audio, combien de fichiers audio sont
+générés. Cette action se fait avec l’éditeur de texte dans
+jom.js 
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<h2 class="western" align="center">activation de l’audio dans
+jom.js</h2>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Le
+générateur sous la forme présentée, peut générer 16 fichiers
+audio. Le fichier jom.js est paramétré pour activer les 8 premiers
+fichiers audio . Si nous générons un fichier audio dans une place
+non active celui-ci ne sera pas joué. Plusieurs fichiers audio
+peuvent être joués dans la même image, comme le même fichier
+audio peut être joué dans différentes images.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">L’activation
+d’un emplacement de fichier audio se fait en dé-commentant la
+ligne de l’emplacement.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">La
+désactivation d’un fichier audio se fait en commentant la ligne de
+l’emplacement.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">En
+exemple&nbsp;: audio.appendChild(source); dit que le premier
+emplacement joue le son. Si une ligne n’est pas commenté pendant
+qu’il n’y a pas de fichier audio généré, alors la vidéo
+générée se mettra en défaut. 
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Autre
+exemple&nbsp;: //audio10.appendChild(source10); le onzième fichier
+audio est commenté avec //</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Commenter
+un emplacement revient à placer // devant la ligne contenant 
+appendChild</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<h2 class="western" align="center">Construction de la bande son</h2>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Le
+format audio utilisé est abadie.jo, et est convertit en abadie.joa
+par le générateur de vidéo.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Depuis
+2010, l’année ou j’ai créé le format abadie.jo, j’ai placé
+de nombreuses bibliothèques et exemples à télécharger. Il est
+même possible de créer ses propres sons en abadie.jo</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Première
+partie, une fois les sons téléchargés, nous indiquons ou ils sont
+avec les navigateurs d’emplacement sous (get sound).</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Deuxième
+partie, nous indiquons l’emplacement avec (Select sound ) puis nous
+attachons le son à une image en cliquant sur le bouton contenant
+l’emplacement de l’image, le 1 est pour la première image. Si je
+veux le même son sur l’image 2, 4 et 5, je clique sur le bouton 2,
+puis le bouton 4 puis bouton 5.
+<br/>
+
+<br/></p>
+
 </body>
 </html>
