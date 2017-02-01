@@ -19,6 +19,7 @@
 		h2.ctl { font-family: "FreeSans"; font-size: 14pt }
 		h3.cjk { font-family: "Noto Sans CJK SC Regular" }
 		h3.ctl { font-family: "FreeSans" }
+		pre.cjk { font-family: "Courier New", monospace }
 		a:link { so-language: zxx }
 	</style>
 </head>
@@ -75,7 +76,7 @@ Une proposition peut s’adapter
 pour les différentes techniques de déplacement, une brique pour les
 univers.</p>
 <p>Le nombre de facteurs de base varie en fonction du nombre
-d’univers, pour 2 univers, neuf facteurs suffisent.<br/>
+d’univers, pour 2 univers, neuf facteurs suffisent. <br/>
 Les
 capacités physiologiques dépendent de beaucoup de facteurs, en
 passant par la génétique au mode de vie.<br/>
@@ -287,7 +288,7 @@ générée se mettra en défaut.
 exemple&nbsp;: //audio10.appendChild(source10); le onzième fichier
 audio est commenté avec //</p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%">Commenter
-un emplacement revient à placer // devant la ligne contenant 
+un emplacement revient à placer // devant la ligne contenant
 appendChild</p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
 
@@ -311,10 +312,79 @@ partie, nous indiquons l’emplacement avec (Select sound ) puis nous
 attachons le son à une image en cliquant sur le bouton contenant
 l’emplacement de l’image, le 1 est pour la première image. Si je
 veux le même son sur l’image 2, 4 et 5, je clique sur le bouton 2,
-puis le bouton 4 puis bouton 5.
-<br/>
+puis le bouton 4 puis bouton 5. 
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
 
-<br/></p>
+</p>
+<h2 class="western" align="center">Réalisation de notre première
+vidéo</h2>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Scénario,
+univers1 une forme ovale tourne dans le sens des aiguilles d’une
+montre, univers 2 une forme différente tourne en sens contraire. Un
+son est joué à chaque début de cycle.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
 
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Nous
+créons un répertoire, dans lequel nous plaçons nos fichiers tab.js
+, -adapt.js , jom.js&nbsp;:</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<h2 class="western" align="center">Construction de l’image</h2>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">La
+construction de l’image se fait en css. Une forme en css, c’est
+deux valeurs de base, ensuite à l’aide de coefficients correcteurs
+nous la manipulons pour générer toutes les formes possibles. J’ai
+créé de nombreux tutoriel comme (
+<a href="http://www.letime.net/alpha/banque/dessin.html">http://www.letime.net/alpha/banque/dessin.html</a>
+) contenant des formes et des personnages qui le démontre. Les deux
+valeurs de base se nomment width et height, pour créer une forme
+ovale, nous donnons une valeur plus grande à  width, soit 200,
+validé par la petite flèche de sélection. Nous donnons 100 à 
+height que nous validons. Pour la couleur, nous cliquons sur le
+bouton color, nous cliquons sur la pipette, le curseur prend une
+forme de pipette, nous cliquons sur la couleur, puis nous cliquons
+sur le bouton sélectionner.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">En
+l’état, nous avons dessiner un rectangle, nous allons travailler
+les angles. Pour arrondir, il suffit de placer huit valeurs
+identiques comme 50 dans le cas de l’exemple.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Pour la
+première position nous plaçons 380 dans rotate, 99 dans opacity, et
+1 dans position.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Nous
+plaçons 200 à speed et nous cliquons immédiatement sur le bouton
+speed pour valider afin de ne pas oublier (sans ce clique, la vidéo
+ne peut pas fonctionner). Nous plaçons à 100 la marge gauche et à
+50 la marge haute.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Pour
+générer notre première image, nous cliquons sur le bouton 1.</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%">Si tout
+se passe bien, il apparaît&nbsp;: 
+</p>
+<pre class="western" style="margin-bottom: 0.5cm">&lt;div class=&quot;tourne380&quot; style=&quot;position:static; margin-left:100px ; ...
+sous les termes,
+ &lt;div id=&quot;fleur16&quot; class=&quot;cachemoi&quot;&gt;
+pour les autres images, il suffit de ne changer que la valeur de rotate, sans plus à avoir à cliquer sur le bouton speed</pre><h2 class="western" align="center">
+Construction du son</h2>
+<p>Le son
+n’est utilisé qu’une fois, pour que la vidéo puisse
+fonctionner, il faut commenter pour désactiver les 7 sons actifs en
+trop dans jom.js</p>
+
+<h2 align="center">Création de index.html et
+example.js</h2>
+<p>Dans
+firefox, cliquer sur (Edit), dans le menu déroulant
+(Select All), puis (Edit) dans le menu déroulant (copie).<br/>
+Avec votre éditeur de texte créer un fichier nommé index.html dans
+votre répertoire, et coller le tout, dans index.html. Puis faire le
+trie de ce qui reste et de ce qui va dans example.js<br/>
+Un clique sur index.html, lance votre vidéo dans firefox</p>
 </body>
 </html>
