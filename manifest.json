@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": "icons/lecjoa-32.png"
   },
-  "description": "Play audio file jo. Play audio file joa. Play audio file joh. Generates video multidirectional, play adn audio format",
+  "description": "Play audio file jo. Play audio file joa. Play audio file joh. Generates video multidirectional, play adn audio format, play PianoBaul",
   "homepage_url": "https://addons.mozilla.org/en-US/firefox/addon/lecjoa/",
   "manifest_version": 2,
   "name": "Lecjoa",
@@ -19,5 +19,5 @@
       "page": "lecjo.html"
   },
   "permissions": ["storage"],
-  "version": "2.3.8.8"
+  "version": "2.3.8.9"
 }

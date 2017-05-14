@@ -34,6 +34,19 @@
     	 var mua34 = 0;
     	 var mua35 = 0;
     	 var mua36 = 0;
+    	 var mua37 = 0;
+    	 var mua38 = 0;
+    	 var mua39 = 0;
+    	 var mua40 = 0;
+    	 var mua41 = 0;
+    	 var mua42 = 0;
+    	 var mua43 = 0;
+    	 var mua44 = 0;
+    	 var mua45 = 0;
+    	 var mua46 = 0;
+    	 var mua47 = 0;
+    	 var mua48 = 0;
+    	 var mua49 = 0;
 
 
 function multitouchea(mua1){
@@ -257,435 +270,684 @@ function multitouches(mua12){
 function multitouched(mua13){
     switch(mua13) {
     case 0:
-  var multid1 = document.getElementById("1wav");
+  var multid1 = document.getElementById("13wav");
   multid1.play();
         break;
     case 1:
-  var multid2 = document.getElementById("1awav");
+  var multid2 = document.getElementById("13awav");
   multid2.play();
         break;
     case 2:
-  var multid3 = document.getElementById("1bwav");
+  var multid3 = document.getElementById("13bwav");
   multid3.play();
         break;
     default:
-  var multid4 = document.getElementById("1cwav");
+  var multid4 = document.getElementById("13cwav");
   multid4.play();
   }}
 function multitouchef(mua14){
     switch(mua14) {
     case 0:
-  var multif1 = document.getElementById("2wav");
+  var multif1 = document.getElementById("14wav");
   multif1.play();
         break;
     case 1:
-  var multif2 = document.getElementById("2awav");
+  var multif2 = document.getElementById("14awav");
   multif2.play();
         break;
     case 2:
-  var multif3 = document.getElementById("2bwav");
+  var multif3 = document.getElementById("14bwav");
   multif3.play();
         break;
     default:
-  var multif4 = document.getElementById("2cwav");
+  var multif4 = document.getElementById("14cwav");
   multif4.play();
   }}
 function multitoucheg(mua15){
     switch(mua15) {
     case 0:
-  var multig1 = document.getElementById("3wav");
+  var multig1 = document.getElementById("15wav");
   multig1.play();
         break;
     case 1:
-  var multig2 = document.getElementById("3awav");
+  var multig2 = document.getElementById("15awav");
   multig2.play();
         break;
     case 2:
-  var multig3 = document.getElementById("3bwav");
+  var multig3 = document.getElementById("15bwav");
   multig3.play();
         break;
     default:
-  var multig4 = document.getElementById("3cwav");
+  var multig4 = document.getElementById("15cwav");
   multig4.play();
   }}
 function multitoucheh(mua16){
     switch(mua16) {
     case 0:
-  var multih1 = document.getElementById("4wav");
+  var multih1 = document.getElementById("16wav");
   multih1.play();
         break;
     case 1:
-  var multih2 = document.getElementById("4awav");
+  var multih2 = document.getElementById("16awav");
   multih2.play();
         break;
     case 2:
-  var multih3 = document.getElementById("4bwav");
+  var multih3 = document.getElementById("16bwav");
   multih3.play();
         break;
     default:
-  var multih4 = document.getElementById("4cwav");
+  var multih4 = document.getElementById("16cwav");
   multih4.play();
   }}
 function multitouchej(mua17){
     switch(mua17) {
     case 0:
-  var multij1 = document.getElementById("5wav");
+  var multij1 = document.getElementById("17wav");
   multij1.play();
         break;
     case 1:
-  var multij2 = document.getElementById("5awav");
+  var multij2 = document.getElementById("17awav");
   multij2.play();
         break;
     case 2:
-  var multij3 = document.getElementById("5bwav");
+  var multij3 = document.getElementById("17bwav");
   multij3.play();
         break;
     default:
-  var multij4 = document.getElementById("5cwav");
+  var multij4 = document.getElementById("17cwav");
   multij4.play();
   }}
 function multitouchek(mua18){
     switch(mua18) {
     case 0:
-  var multik1 = document.getElementById("6wav");
+  var multik1 = document.getElementById("18wav");
   multik1.play();
         break;
     case 1:
-  var multik2 = document.getElementById("6awav");
+  var multik2 = document.getElementById("18awav");
   multik2.play();
         break;
     case 2:
-  var multik3 = document.getElementById("6bwav");
+  var multik3 = document.getElementById("18bwav");
   multik3.play();
         break;
     default:
-  var multik4 = document.getElementById("6cwav");
+  var multik4 = document.getElementById("18cwav");
   multik4.play();
   }}
 function multitouchel(mua19){
     switch(mua19) {
     case 0:
-  var multil1 = document.getElementById("7wav");
+  var multil1 = document.getElementById("19wav");
   multil1.play();
         break;
     case 1:
-  var multil2 = document.getElementById("7awav");
+  var multil2 = document.getElementById("19awav");
   multil2.play();
         break;
     case 2:
-  var multil3 = document.getElementById("7bwav");
+  var multil3 = document.getElementById("19bwav");
   multil3.play();
         break;
     default:
-  var multil4 = document.getElementById("7cwav");
+  var multil4 = document.getElementById("19cwav");
   multil4.play();
   }}
 function multitouchem(mua20){
     switch(mua20) {
     case 0:
-  var multim1 = document.getElementById("8wav");
+  var multim1 = document.getElementById("20wav");
   multim1.play();
         break;
     case 1:
-  var multim2 = document.getElementById("8awav");
+  var multim2 = document.getElementById("20awav");
   multim2.play();
         break;
     case 2:
-  var multim3 = document.getElementById("8bwav");
+  var multim3 = document.getElementById("20bwav");
   multim3.play();
         break;
     default:
-  var multim4 = document.getElementById("8cwav");
+  var multim4 = document.getElementById("20cwav");
   multim4.play();
   }}
 function multitouchew(mua21){
     switch(mua21) {
     case 0:
-  var multiw1 = document.getElementById("9wav");
+  var multiw1 = document.getElementById("21wav");
   multiw1.play();
         break;
     case 1:
-  var multiw2 = document.getElementById("9awav");
+  var multiw2 = document.getElementById("21awav");
   multiw2.play();
         break;
     case 2:
-  var multiw3 = document.getElementById("9bwav");
+  var multiw3 = document.getElementById("21bwav");
   multiw3.play();
         break;
     default:
-  var multiw4 = document.getElementById("9cwav");
+  var multiw4 = document.getElementById("21cwav");
   multiw4.play();
   }}
 function multitouchex(mua22){
     switch(mua22) {
     case 0:
-  var multix1 = document.getElementById("10wav");
+  var multix1 = document.getElementById("22wav");
   multix1.play();
         break;
     case 1:
-  var multix2 = document.getElementById("10awav");
+  var multix2 = document.getElementById("22awav");
   multix2.play();
         break;
     case 2:
-  var multix3 = document.getElementById("10bwav");
+  var multix3 = document.getElementById("22bwav");
   multix3.play();
         break;
     default:
-  var multix4 = document.getElementById("10cwav");
+  var multix4 = document.getElementById("22cwav");
   multix4.play();
   }}
 function multitouchec(mua23){
     switch(mua23) {
     case 0:
-  var multic1 = document.getElementById("11wav");
+  var multic1 = document.getElementById("23wav");
   multic1.play();
         break;
     case 1:
-  var multic2 = document.getElementById("11awav");
+  var multic2 = document.getElementById("23awav");
   multic2.play();
         break;
     case 2:
-  var multic3 = document.getElementById("11bwav");
+  var multic3 = document.getElementById("23bwav");
   multic3.play();
         break;
     default:
-  var multic4 = document.getElementById("11cwav");
+  var multic4 = document.getElementById("23cwav");
   multic4.play();
   }}
 function multitouchev(mua24){
     switch(mua24) {
     case 0:
-  var multiv1 = document.getElementById("12wav");
+  var multiv1 = document.getElementById("24wav");
   multiv1.play();
         break;
     case 1:
-  var multiv2 = document.getElementById("12awav");
+  var multiv2 = document.getElementById("24awav");
   multiv2.play();
         break;
     case 2:
-  var multiv3 = document.getElementById("12bwav");
+  var multiv3 = document.getElementById("24bwav");
   multiv3.play();
         break;
     default:
-  var multiv4 = document.getElementById("12cwav");
+  var multiv4 = document.getElementById("24cwav");
   multiv4.play();
   }}
 function multitoucheb(mua25){
     switch(mua25) {
     case 0:
-  var multib1 = document.getElementById("1wav");
+  var multib1 = document.getElementById("25wav");
   multib1.play();
         break;
     case 1:
-  var multib2 = document.getElementById("1awav");
+  var multib2 = document.getElementById("25awav");
   multib2.play();
         break;
     case 2:
-  var multib3 = document.getElementById("1bwav");
+  var multib3 = document.getElementById("25bwav");
   multib3.play();
         break;
     default:
-  var multib4 = document.getElementById("1cwav");
+  var multib4 = document.getElementById("25cwav");
   multib4.play();
   }}
 function multitouchen(mua26){
     switch(mua26) {
     case 0:
-  var multin1 = document.getElementById("2wav");
+  var multin1 = document.getElementById("26wav");
   multin1.play();
         break;
     case 1:
-  var multin2 = document.getElementById("2awav");
+  var multin2 = document.getElementById("26awav");
   multin2.play();
         break;
     case 2:
-  var multin3 = document.getElementById("2bwav");
+  var multin3 = document.getElementById("26bwav");
   multin3.play();
         break;
     default:
-  var multin4 = document.getElementById("2cwav");
+  var multin4 = document.getElementById("26cwav");
   multin4.play();
   }}
 function multitoucheno(mua27){
     switch(mua27) {
     case 0:
-  var multioo1 = document.getElementById("3wav");
+  var multioo1 = document.getElementById("27wav");
   multioo1.play();
         break;
     case 1:
-  var multioo2 = document.getElementById("3awav");
+  var multioo2 = document.getElementById("27awav");
   multioo2.play();
         break;
     case 2:
-  var multioo3 = document.getElementById("3bwav");
+  var multioo3 = document.getElementById("27bwav");
   multioo3.play();
         break;
     default:
-  var multioo4 = document.getElementById("3cwav");
+  var multioo4 = document.getElementById("27cwav");
   multioo4.play();
   }}
  function multitouche1(mua28){
     switch(mua28) {
     case 0:
-  var multi11 = document.getElementById("4wav");
+  var multi11 = document.getElementById("28wav");
   multi11.play();
         break;
     case 1:
-  var multi12 = document.getElementById("4awav");
+  var multi12 = document.getElementById("28awav");
   multi12.play();
         break;
     case 2:
-  var multi13 = document.getElementById("4bwav");
+  var multi13 = document.getElementById("28bwav");
   multi13.play();
         break;
     default:
-  var multi14 = document.getElementById("4cwav");
+  var multi14 = document.getElementById("28cwav");
   multi14.play();
   }}
 function multitouche2(mua29){
     switch(mua29) {
     case 0:
-  var multi21 = document.getElementById("5wav");
+  var multi21 = document.getElementById("29wav");
   multi21.play();
         break;
     case 1:
-  var multi22 = document.getElementById("5awav");
+  var multi22 = document.getElementById("29awav");
   multi22.play();
         break;
     case 2:
-  var multi23 = document.getElementById("5bwav");
+  var multi23 = document.getElementById("29bwav");
   multi23.play();
         break;
     default:
-  var multi24 = document.getElementById("5cwav");
+  var multi24 = document.getElementById("29cwav");
   multi24.play();
   }}
 function multitouche3(mua30){
     switch(mua30) {
     case 0:
-  var multi31 = document.getElementById("6wav");
+  var multi31 = document.getElementById("30wav");
   multi31.play();
         break;
     case 1:
-  var multi32 = document.getElementById("6awav");
+  var multi32 = document.getElementById("30awav");
   multi32.play();
         break;
     case 2:
-  var multi33 = document.getElementById("6bwav");
+  var multi33 = document.getElementById("30bwav");
   multi33.play();
         break;
     default:
-  var multi34 = document.getElementById("6cwav");
+  var multi34 = document.getElementById("30cwav");
   multi34.play();
   }}
 function multitouche4(mua31){
     switch(mua31) {
     case 0:
-  var multi41 = document.getElementById("7wav");
+  var multi41 = document.getElementById("31wav");
   multi41.play();
         break;
     case 1:
-  var multi42 = document.getElementById("7awav");
+  var multi42 = document.getElementById("31awav");
   multi42.play();
         break;
     case 2:
-  var multi43 = document.getElementById("7bwav");
+  var multi43 = document.getElementById("31bwav");
   multi43.play();
         break;
     default:
-  var multi44 = document.getElementById("7cwav");
+  var multi44 = document.getElementById("31cwav");
   multi44.play();
   }}
 function multitouche5(mua32){
     switch(mua32) {
     case 0:
-  var multi51 = document.getElementById("8wav");
+  var multi51 = document.getElementById("32wav");
   multi51.play();
         break;
     case 1:
-  var multi52 = document.getElementById("8awav");
+  var multi52 = document.getElementById("32awav");
   multi52.play();
         break;
     case 2:
-  var multi53 = document.getElementById("8bwav");
+  var multi53 = document.getElementById("32bwav");
   multi53.play();
         break;
     default:
-  var multi54 = document.getElementById("8cwav");
+  var multi54 = document.getElementById("32cwav");
   multi54.play();
   }}
 function multitouche6(mua33){
     switch(mua33) {
     case 0:
-  var multi61 = document.getElementById("9wav");
+  var multi61 = document.getElementById("33wav");
   multi61.play();
         break;
     case 1:
-  var multi62 = document.getElementById("9awav");
+  var multi62 = document.getElementById("33awav");
   multi62.play();
         break;
     case 2:
-  var multi63 = document.getElementById("9bwav");
+  var multi63 = document.getElementById("33bwav");
   multi63.play();
         break;
     default:
-  var multi64 = document.getElementById("9cwav");
+  var multi64 = document.getElementById("33cwav");
   multi64.play();
   }}
 function multitouche7(mua34){
     switch(mua34) {
     case 0:
-  var multi71 = document.getElementById("10wav");
+  var multi71 = document.getElementById("34wav");
   multi71.play();
         break;
     case 1:
-  var multi72 = document.getElementById("10awav");
+  var multi72 = document.getElementById("34awav");
   multi72.play();
         break;
     case 2:
-  var multi73 = document.getElementById("10bwav");
+  var multi73 = document.getElementById("34bwav");
   multi73.play();
         break;
     default:
-  var multi74 = document.getElementById("10cwav");
+  var multi74 = document.getElementById("34cwav");
   multi74.play();
   }}
 function multitouche8(mua35){
     switch(mua35) {
     case 0:
-  var multi81 = document.getElementById("11wav");
+  var multi81 = document.getElementById("35wav");
   multi81.play();
         break;
     case 1:
-  var multi82 = document.getElementById("11awav");
+  var multi82 = document.getElementById("35awav");
   multi82.play();
         break;
     case 2:
-  var multi83 = document.getElementById("11bwav");
+  var multi83 = document.getElementById("35bwav");
   multi83.play();
         break;
     default:
-  var multi84 = document.getElementById("11cwav");
+  var multi84 = document.getElementById("35cwav");
   multi84.play();
   }}
 function multitouche9(mua36){
     switch(mua36) {
     case 0:
-  var multi91 = document.getElementById("12wav");
+  var multi91 = document.getElementById("36wav");
   multi91.play();
         break;
     case 1:
-  var multi92 = document.getElementById("12awav");
+  var multi92 = document.getElementById("36awav");
   multi92.play();
         break;
     case 2:
-  var multi93 = document.getElementById("12bwav");
+  var multi93 = document.getElementById("36bwav");
   multi93.play();
         break;
     default:
-  var multi94 = document.getElementById("12cwav");
+  var multi94 = document.getElementById("36cwav");
   multi94.play();
   }}
+function multitouchess1a(mua37){
+    switch(mua37) {
+    case 0:
+  var multiss1a = document.getElementById("37wav");
+  multiss1a.play();
+        break;
+    case 1:
+  var multiss1b = document.getElementById("37awav");
+  multiss1b.play();
+        break;
+    case 2:
+  var multiss1c = document.getElementById("37bwav");
+  multiss1c.play();
+        break;
+    default:
+  var multiss1d = document.getElementById("37cwav");
+  multiss1d.play();
+  }}
+function multitouchess2a(mua38){
+    switch(mua38) {
+    case 0:
+  var multiss2a = document.getElementById("38wav");
+  multiss2a.play();
+        break;
+    case 1:
+  var multiss2b = document.getElementById("38awav");
+  multiss2b.play();
+        break;
+    case 2:
+  var multiss2c = document.getElementById("38bwav");
+  multiss2c.play();
+        break;
+    default:
+  var multiss2d = document.getElementById("38cwav");
+  multiss2d.play();
+  }}
+
+function multitouchess3a(mua39){
+    switch(mua39) {
+    case 0:
+  var multiss3a = document.getElementById("39wav");
+  multiss3a.play();
+        break;
+    case 1:
+  var multiss3b = document.getElementById("39awav");
+  multiss3b.play();
+        break;
+    case 2:
+  var multiss3c = document.getElementById("39bwav");
+  multiss3c.play();
+        break;
+    default:
+  var multiss3d = document.getElementById("39cwav");
+  multiss3d.play();
+  }}
+
+function multitouchess4a(mua40){
+    switch(mua40) {
+    case 0:
+  var multiss4a = document.getElementById("40wav");
+  multiss4a.play();
+        break;
+    case 1:
+  var multiss4b = document.getElementById("40awav");
+  multiss4b.play();
+        break;
+    case 2:
+  var multiss4c = document.getElementById("40bwav");
+  multiss4c.play();
+        break;
+    default:
+  var multiss4d = document.getElementById("40cwav");
+  multiss4d.play();
+  }}
+
+function multitouchess5a(mua41){
+    switch(mua41) {
+    case 0:
+  var multiss5a = document.getElementById("41wav");
+  multiss5a.play();
+        break;
+    case 1:
+  var multiss5b = document.getElementById("41awav");
+  multiss5b.play();
+        break;
+    case 2:
+  var multiss5c = document.getElementById("41bwav");
+  multiss5c.play();
+        break;
+    default:
+  var multiss5d = document.getElementById("41cwav");
+  multiss5d.play();
+  }}
+
+function multitouchess6a(mua42){
+    switch(mua42) {
+    case 0:
+  var multiss6a = document.getElementById("42wav");
+  multiss6a.play();
+        break;
+    case 1:
+  var multiss6b = document.getElementById("42awav");
+  multiss6b.play();
+        break;
+    case 2:
+  var multiss6c = document.getElementById("42bwav");
+  multiss6c.play();
+        break;
+    default:
+  var multiss6d = document.getElementById("42cwav");
+  multiss6d.play();
+  }}
+
+function multitouchess7a(mua43){
+    switch(mua43) {
+    case 0:
+  var multiss7a = document.getElementById("43wav");
+  multiss7a.play();
+        break;
+    case 1:
+  var multiss7b = document.getElementById("43awav");
+  multiss7b.play();
+        break;
+    case 2:
+  var multiss7c = document.getElementById("43bwav");
+  multiss7c.play();
+        break;
+    default:
+  var multiss7d = document.getElementById("43cwav");
+  multiss7d.play();
+  }}
+
+function multitouchess8a(mua44){
+    switch(mua44) {
+    case 0:
+  var multiss8a = document.getElementById("44wav");
+  multiss8a.play();
+        break;
+    case 1:
+  var multiss8b = document.getElementById("44awav");
+  multiss8b.play();
+        break;
+    case 2:
+  var multiss8c = document.getElementById("44bwav");
+  multiss8c.play();
+        break;
+    default:
+  var multiss8d = document.getElementById("44cwav");
+  multiss8d.play();
+  }}
+
+function multitouchess9a(mua45){
+    switch(mua45) {
+    case 0:
+  var multiss9a = document.getElementById("45wav");
+  multiss9a.play();
+        break;
+    case 1:
+  var multiss9b = document.getElementById("45awav");
+  multiss9b.play();
+        break;
+    case 2:
+  var multiss9c = document.getElementById("45bwav");
+  multiss9c.play();
+        break;
+    default:
+  var multiss9d = document.getElementById("45cwav");
+  multiss9d.play();
+  }}
+
+function multitouchess10a(mua46){
+    switch(mua46) {
+    case 0:
+  var multiss10a = document.getElementById("46wav");
+  multiss10a.play();
+        break;
+    case 1:
+  var multiss10b = document.getElementById("46awav");
+  multiss10b.play();
+        break;
+    case 2:
+  var multiss10c = document.getElementById("46bwav");
+  multiss10c.play();
+        break;
+    default:
+  var multiss10d = document.getElementById("46cwav");
+  multiss10d.play();
+  }}
+
+function multitouchess11a(mua47){
+    switch(mua47) {
+    case 0:
+  var multiss11a = document.getElementById("47wav");
+  multiss11a.play();
+        break;
+    case 1:
+  var multiss11b = document.getElementById("47awav");
+  multiss11b.play();
+        break;
+    case 2:
+  var multiss11c = document.getElementById("47bwav");
+  multiss11c.play();
+        break;
+    default:
+  var multiss11d = document.getElementById("47cwav");
+  multiss11d.play();
+  }}
+
+function multitouchess12a(mua48){
+    switch(mua48) {
+    case 0:
+  var multiss12a = document.getElementById("48wav");
+  multiss12a.play();
+        break;
+    case 1:
+  var multiss12b = document.getElementById("48awav");
+  multiss12b.play();
+        break;
+    case 2:
+  var multiss12c = document.getElementById("48bwav");
+  multiss12c.play();
+        break;
+    default:
+  var multiss12d = document.getElementById("48cwav");
+  multiss12d.play();
+  }}
+
+function multitouchess13a(mua49){
+    switch(mua49) {
+    case 0:
+  var multiss13a = document.getElementById("49wav");
+  multiss13a.play();
+        break;
+    case 1:
+  var multiss13b = document.getElementById("49awav");
+  multiss13b.play();
+        break;
+    case 2:
+  var multiss13c = document.getElementById("49bwav");
+  multiss13c.play();
+        break;
+    default:
+  var multiss13d = document.getElementById("49cwav");
+  multiss13d.play();
+  }}
+
+
+
+
 
 function touche1Press(){
 	mua1 = Number(mua1) + 1;
@@ -940,9 +1202,98 @@ function touche36Press(){
 	multitouche9(mua36);
   }  
 
+function touche37Press(){
+	mua37 = Number(mua37) + 1;
+	if(mua37>3){
+        mua37 =0;
+  	}
+	multitouchess1a(mua37);
+  }
+function touche38Press(){
+	mua38 = Number(mua38) + 1;
+	if(mua38>3){
+        mua38 =0;
+  	}
+	multitouchess2a(mua38);
+  }
+function touche39Press(){
+	mua39 = Number(mua39) + 1;
+	if(mua39>3){
+        mua39 =0;
+  	}
+	multitouchess3a(mua39);
+  }
+function touche40Press(){
+	mua40 = Number(mua40) + 1;
+	if(mua40>3){
+        mua40 =0;
+  	}
+	multitouchess4a(mua40);
+  }
+function touche41Press(){
+	mua41 = Number(mua41) + 1;
+	if(mua41>3){
+        mua41 =0;
+  	}
+	multitouchess5a(mua41);
+  }
+function touche42Press(){
+	mua42 = Number(mua42) + 1;
+	if(mua42>3){
+        mua42 =0;
+  	}
+	multitouchess6a(mua42);
+  }
+function touche43Press(){
+	mua43 = Number(mua43) + 1;
+	if(mua43>3){
+        mua43 =0;
+  	}
+	multitouchess7a(mua43);
+  }
+function touche44Press(){
+	mua44 = Number(mua44) + 1;
+	if(mua44>3){
+        mua44 =0;
+  	}
+	multitouchess8a(mua44);
+  }
+function touche45Press(){
+	mua45 = Number(mua45) + 1;
+	if(mua45>3){
+        mua45 =0;
+  	}
+	multitouchess9a(mua45);
+  } 
+function touche46Press(){
+	mua46 = Number(mua46) + 1;
+	if(mua46>3){
+        mua46 =0;
+  	}
+	multitouchess10a(mua46);
+  }
+function touche47Press(){
+	mua47 = Number(mua47) + 1;
+	if(mua47>3){
+        mua47 =0;
+  	}
+	multitouchess11a(mua47);
+  }  
+function touche48Press(){
+	mua48 = Number(mua48) + 1;
+	if(mua48>3){
+        mua48 =0;
+  	}
+	multitouchess12a(mua48);
+  }
 
-     
-
+function touche49Press(){
+	mua49 = Number(mua49) + 1;
+	if(mua49>3){
+        mua49 =0;
+  	}
+	multitouchess13a(mua49);
+  }  
 
 window.addEventListener("keydown", function (event) {
   if (event.defaultPrevented) {
@@ -1358,6 +1709,45 @@ touche21Press();
     });
     document.getElementById('b36v').addEventListener("click", function() {
     touche36Press();
+    });
+    document.getElementById('b37v').addEventListener("click", function() {
+    touche37Press();
+    });
+    document.getElementById('b38v').addEventListener("click", function() {
+    touche38Press();
+    });
+    document.getElementById('b39v').addEventListener("click", function() {
+    touche39Press();
+    });
+    document.getElementById('b40v').addEventListener("click", function() {
+    touche40Press();
+    });
+    document.getElementById('b41v').addEventListener("click", function() {
+    touche41Press();
+    });
+    document.getElementById('b42v').addEventListener("click", function() {
+    touche42Press();
+    });
+    document.getElementById('b43v').addEventListener("click", function() {
+    touche43Press();
+    });
+    document.getElementById('b44v').addEventListener("click", function() {
+    touche44Press();
+    });
+    document.getElementById('b45v').addEventListener("click", function() {
+    touche45Press();
+    });
+    document.getElementById('b46v').addEventListener("click", function() {
+    touche46Press();
+    });
+    document.getElementById('b47v').addEventListener("click", function() {
+    touche47Press();
+    });
+    document.getElementById('b48v').addEventListener("click", function() {
+    touche48Press();
+    });
+    document.getElementById('b49v').addEventListener("click", function() {
+    touche49Press();
     });
 
 });
