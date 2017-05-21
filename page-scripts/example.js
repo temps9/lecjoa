@@ -1,4 +1,7 @@
 
+var levariateur = 1;
+var lenommeur ;
+var lenommeur1 ;	
 	var persistanceretinienne = 15;
 	var nbimg = null;
 	var nbboucle = 70;

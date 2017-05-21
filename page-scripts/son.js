@@ -262,6 +262,10 @@
 
 ];
 
+var levariateur = 1;
+var lenommeur ;
+var lenommeur1 ;
+
 function lancertout()
 {
 lecjo(soud1);
